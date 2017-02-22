@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<div class="container">
+  <div id="receptJumbotron" style="background-image: url({{ page.image_path }})" class="jumbotron">
+    <h2>{{ page.title }}</h2>
+  </div>
+  <a id="backToRecepten" href="{{site.baseurl}}/recepten.html"><i class="fa fa-undo" aria-hidden="true"></i> recepten</a>
+  <div class="receptContent">
+    <label><h5>kies aantal personen... (<span class="personen">4</span>)</h5>
+      <div class="inputBar">
+        <span>1</span>
+        <input type="range" value="4" min="1" max="12">
+        <span>12</span>
+      </div>
+    </label>
+    {{ content }}
+  </div>
+</div>

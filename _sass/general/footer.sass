@@ -1,0 +1,117 @@
+footer
+  margin-top: 8vh
+  #footerNav
+    margin-bottom: 8vh
+    #nav1
+      display: inline
+      a:nth-child(1)
+        font-size: 1em
+      a:nth-child(2)
+        font-size: 4em
+      a:nth-child(3)
+        font-size: 1.5em
+      a:nth-child(4)
+        font-size: 2.3em
+        color: hotpink
+        &:hover
+          color: $bl-hover-color
+      a:nth-child(5)
+        font-size: 1.1em
+        border: 2px dotted $bl-hover-color
+        padding: 0.2em
+        border-radius: 1.2em
+      a:nth-child(6)
+        font-size: 2.5em
+        color: chocolate
+        &:hover
+          color: $bl-hover-color
+
+    #nav2
+      display: inline
+      a:nth-child(1)
+        font-size: 1em
+      a:nth-child(2)
+        font-size: 1.5em
+      a:nth-child(3)
+        font-size: 2.2em
+      a:nth-child(4)
+        font-size: 1em
+      a:nth-child(5)
+        font-size: 3em
+        color: gold
+        &:hover
+          color: $bl-hover-color
+      a:nth-child(6)
+        font-size: 1.3em
+      a:nth-child(7)
+        font-size: 1em
+      a:nth-child(8)
+        font-size: 2.8em
+      a:nth-child(9)
+        font-size: 1.3em
+
+  #socialMedia
+    background: #3494E6
+    background: -webkit-linear-gradient(to left, $bl-hover-color , $bl-green)
+    background: linear-gradient(to left, $bl-hover-color , $bl-green)
+
+    min-height: 30vh
+    border: 10px solid white
+    border-radius: 20px
+    color: white
+    h3
+      color: white
+      .lobster
+        font-size: 2em
+    .socialMediaContainer
+      display: inline-flex
+      flex-direction: row
+      flex-wrap: wrap
+      justify-content: space-around
+      width: 100%
+      i
+        // color: $bl-green
+        margin: 3%
+        font-size: 4em
+        &:hover
+          text-shadow: 2px 2px 3px black
+
+
+  .card
+    height: 30vh
+    border-radius: 20px
+    background-position: center
+    background-size: contain
+    background-repeat: no-repeat
+    margin: 0px
+    padding: 0px
+    background-image: url("../img/products/bloei-en-leef-kookboek.jpg")
+
+    .fadeCard
+      display: flex
+      flex-direction: column
+      width: 100%
+      height: 100%
+      background-color: rgba(255,255,255,0.0)
+      &:hover
+        cursor: pointer
+        background-color: rgba(255,255,255,0.8)
+        transition: 200ms
+        .cardInfo
+          opacity: 1
+          transition: 300ms
+
+      .cardInfo
+        justify-content: center
+        margin: auto 20px 0 20px
+        opacity: 0
+      .cardTitle
+        background-color: rgba(255,0,0,0.5)
+        padding: 2px
+        border-radius: 10px
+        margin: auto auto
+        margin-bottom: 15px
+        justify-content: flex-end
+        width: 50%
+      h2
+        color: white

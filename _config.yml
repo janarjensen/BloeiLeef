@@ -1,0 +1,11 @@
+# site settings
+title: Bloei en Leef
+email: info@bloeienleef.nl
+description: Bloei en Leef staat voor een gezonde en eerlijke levensstijl.
+baseurl: ""
+url: "http://localhost:"
+
+# collections
+collections:
+  recepten:
+    output: true

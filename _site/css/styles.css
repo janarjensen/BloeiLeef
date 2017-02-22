@@ -1,0 +1,524 @@
+html {
+  width: 100%; }
+  html ::-webkit-scrollbar {
+    display: none; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Special Elite", cursive; }
+
+h1, h2, h3, h4 {
+  text-align: center;
+  color: #444444; }
+
+h5 {
+  font-size: 2em;
+  color: #008d90;
+  margin-top: 50px; }
+
+h6 {
+  font-size: 1.3em;
+  color: #008d90;
+  margin-top: 50px; }
+
+p, a {
+  font-size: 1.3em; }
+
+#bl-logo-svg {
+  fill: #008d90; }
+
+section {
+  margin-top: 4vh;
+  margin-bottom: 4vh; }
+
+a {
+  color: #008d90;
+  margin: 5px; }
+  a:hover {
+    color: #8A2BE2;
+    text-decoration: none; }
+
+.lobster {
+  font-family: "Lobster", cursive; }
+
+.static-navigation-container {
+  position: fixed;
+  left: 20px;
+  top: 20px;
+  min-width: 40px;
+  margin-right: 20px;
+  z-index: 30; }
+  .static-navigation-container .static-navigation-hover-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    border-radius: 15px;
+    z-index: 30; }
+    .static-navigation-container .static-navigation-hover-container:hover {
+      cursor: hand;
+      cursor: pointer; }
+      .static-navigation-container .static-navigation-hover-container:hover .top-navigation-container {
+        margin-left: 10px;
+        transition: 1s; }
+      .static-navigation-container .static-navigation-hover-container:hover .static-navigation-cross {
+        margin-left: 10px;
+        transition: 1s; }
+    .static-navigation-container .static-navigation-hover-container .bl-leaf {
+      position: relative;
+      width: 40px;
+      height: 40px;
+      z-index: 33; }
+    .static-navigation-container .static-navigation-hover-container .static-navigation-cross {
+      position: relative;
+      width: 40px;
+      height: 40px;
+      min-width: 40px;
+      background-color: white;
+      border-radius: 100%;
+      margin-left: -80px;
+      z-index: 32;
+      transition: 1s; }
+      .static-navigation-container .static-navigation-hover-container .static-navigation-cross:hover {
+        margin-left: -80px;
+        transition: 1s;
+        transition-delay: 0.5s; }
+      .static-navigation-container .static-navigation-hover-container .static-navigation-cross:hover + .top-navigation-container {
+        margin-left: -1000px;
+        transition: 1s;
+        transition-delay: 0.5s; }
+      .static-navigation-container .static-navigation-hover-container .static-navigation-cross h4 {
+        color: #008d90;
+        padding: 0;
+        margin: 0;
+        line-height: 40px; }
+        .static-navigation-container .static-navigation-hover-container .static-navigation-cross h4:hover {
+          color: #8A2BE2;
+          text-decoration: none; }
+    .static-navigation-container .static-navigation-hover-container .top-navigation-container {
+      position: relative;
+      background-color: white;
+      border-radius: 20px;
+      margin-left: -1000px;
+      padding: 0 10px 0 10px;
+      transition: 1s;
+      z-index: 31; }
+      .static-navigation-container .static-navigation-hover-container .top-navigation-container nav a {
+        color: #008d90;
+        font-weight: bolder;
+        text-transform: uppercase;
+        margin: 0 5px 0 5px;
+        white-space: nowrap;
+        line-height: 40px; }
+        .static-navigation-container .static-navigation-hover-container .top-navigation-container nav a:hover {
+          color: #8A2BE2;
+          text-decoration: none; }
+
+footer {
+  margin-top: 8vh; }
+  footer #footerNav {
+    margin-bottom: 8vh; }
+    footer #footerNav #nav1 {
+      display: inline; }
+      footer #footerNav #nav1 a:nth-child(1) {
+        font-size: 1em; }
+      footer #footerNav #nav1 a:nth-child(2) {
+        font-size: 4em; }
+      footer #footerNav #nav1 a:nth-child(3) {
+        font-size: 1.5em; }
+      footer #footerNav #nav1 a:nth-child(4) {
+        font-size: 2.3em;
+        color: hotpink; }
+        footer #footerNav #nav1 a:nth-child(4):hover {
+          color: #8A2BE2; }
+      footer #footerNav #nav1 a:nth-child(5) {
+        font-size: 1.1em;
+        border: 2px dotted #8A2BE2;
+        padding: 0.2em;
+        border-radius: 1.2em; }
+      footer #footerNav #nav1 a:nth-child(6) {
+        font-size: 2.5em;
+        color: chocolate; }
+        footer #footerNav #nav1 a:nth-child(6):hover {
+          color: #8A2BE2; }
+    footer #footerNav #nav2 {
+      display: inline; }
+      footer #footerNav #nav2 a:nth-child(1) {
+        font-size: 1em; }
+      footer #footerNav #nav2 a:nth-child(2) {
+        font-size: 1.5em; }
+      footer #footerNav #nav2 a:nth-child(3) {
+        font-size: 2.2em; }
+      footer #footerNav #nav2 a:nth-child(4) {
+        font-size: 1em; }
+      footer #footerNav #nav2 a:nth-child(5) {
+        font-size: 3em;
+        color: gold; }
+        footer #footerNav #nav2 a:nth-child(5):hover {
+          color: #8A2BE2; }
+      footer #footerNav #nav2 a:nth-child(6) {
+        font-size: 1.3em; }
+      footer #footerNav #nav2 a:nth-child(7) {
+        font-size: 1em; }
+      footer #footerNav #nav2 a:nth-child(8) {
+        font-size: 2.8em; }
+      footer #footerNav #nav2 a:nth-child(9) {
+        font-size: 1.3em; }
+  footer #socialMedia {
+    background: #3494E6;
+    background: -webkit-linear-gradient(to left, #8A2BE2, #008d90);
+    background: linear-gradient(to left, #8A2BE2, #008d90);
+    min-height: 30vh;
+    border: 10px solid white;
+    border-radius: 20px;
+    color: white; }
+    footer #socialMedia h3 {
+      color: white; }
+      footer #socialMedia h3 .lobster {
+        font-size: 2em; }
+    footer #socialMedia .socialMediaContainer {
+      display: inline-flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      width: 100%; }
+      footer #socialMedia .socialMediaContainer i {
+        margin: 3%;
+        font-size: 4em; }
+        footer #socialMedia .socialMediaContainer i:hover {
+          text-shadow: 2px 2px 3px black; }
+  footer .card {
+    height: 30vh;
+    border-radius: 20px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../img/products/bloei-en-leef-kookboek.jpg"); }
+    footer .card .fadeCard {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255, 255, 255, 0); }
+      footer .card .fadeCard:hover {
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, 0.8);
+        transition: 200ms; }
+        footer .card .fadeCard:hover .cardInfo {
+          opacity: 1;
+          transition: 300ms; }
+      footer .card .fadeCard .cardInfo {
+        justify-content: center;
+        margin: auto 20px 0 20px;
+        opacity: 0; }
+      footer .card .fadeCard .cardTitle {
+        background-color: rgba(255, 0, 0, 0.5);
+        padding: 2px;
+        border-radius: 10px;
+        margin: auto auto;
+        margin-bottom: 15px;
+        justify-content: flex-end;
+        width: 50%; }
+      footer .card .fadeCard h2 {
+        color: white; }
+
+#copyright {
+  margin-top: 8vh;
+  margin-bottom: 0;
+  background-color: #DCDCDC;
+  padding-top: 3px; }
+  #copyright p {
+    display: inline;
+    margin: 0 2%; }
+  #copyright img {
+    max-width: 1.3em; }
+
+#headerSection {
+  width: 100vw;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  transition: 2s;
+  margin-top: 0px; }
+  #headerSection .logo {
+    width: 50%;
+    max-width: 300px;
+    margin: 14vh auto 4vh auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 0px 10px white;
+    align-self: flex-start;
+    border-radius: 100%; }
+    #headerSection .logo svg {
+      filter: drop-shadow(0px 4px 3px rgba(0, 0, 0, 0.8)); }
+  #headerSection .kicker {
+    padding: 0 5%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 0px 10px white;
+    align-self: center;
+    color: #008d90;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.3); }
+  #headerSection .circles {
+    width: 90vw;
+    margin: auto;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: flex-end; }
+    #headerSection .circles:hover {
+      cursor: pointer; }
+    #headerSection .circles .circle {
+      width: 40px;
+      height: 40px;
+      border-radius: 100%;
+      background-color: rgba(255, 255, 255, 0.5);
+      box-shadow: 0px 0px 10px white;
+      text-align: center; }
+      #headerSection .circles .circle i {
+        line-height: 40px;
+        font-size: 25px;
+        color: #008d90;
+        text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.3); }
+
+.header1 {
+  background-image: url("../img/backgrounds/bloei-en-leef-header-img-2.jpg");
+  transition: 2s; }
+
+.header2 {
+  background-image: url("../img/backgrounds/bloei-en-leef-header-img-1.jpg");
+  transition: 2s; }
+
+.header3 {
+  background-image: url("../img/backgrounds/bloei-en-leef-header-img-3.jpg");
+  transition: 2s; }
+
+.selected {
+  transform: scale(1.5);
+  transition: 2s; }
+
+#navSection {
+  border-top: 10px solid white;
+  padding: 0 5%; }
+  #navSection nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    #navSection nav a {
+      text-transform: uppercase;
+      font-weight: bolder;
+      font-size: 1.2em; }
+
+#cardsSection .card {
+  height: 70vh;
+  border: 10px solid white;
+  border-radius: 20px;
+  background-position: center;
+  background-size: cover;
+  margin: 0px;
+  padding: 0px; }
+  #cardsSection .card .fadeCard {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0); }
+    #cardsSection .card .fadeCard:hover {
+      cursor: pointer;
+      background-color: rgba(255, 255, 255, 0.8);
+      transition: 200ms; }
+      #cardsSection .card .fadeCard:hover .cardInfo {
+        opacity: 1;
+        transition: 300ms; }
+    #cardsSection .card .fadeCard .cardInfo {
+      justify-content: center;
+      margin: auto 20px 0 20px;
+      opacity: 0; }
+    #cardsSection .card .fadeCard .cardTitle {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 2px;
+      border-radius: 10px;
+      margin-top: auto;
+      margin-bottom: 15px;
+      justify-content: flex-end;
+      width: 98%; }
+    #cardsSection .card .fadeCard h2 {
+      color: white; }
+#cardsSection #card1 {
+  background-image: url("../img/cards/bloei-en-leef-maaike-en-alwin.jpg"); }
+#cardsSection #card2 {
+  background-image: url("../img/cards/bloei-en-leef-maaike-rug.jpg"); }
+#cardsSection #card3 {
+  background-image: url("../img/cards/bloei-en-leef-maaike-druppel.jpg"); }
+#cardsSection #card4 {
+  background-image: url("../img/cards/bloei-en-leef-spinazie.jpg"); }
+#cardsSection #card5 {
+  background-image: url("../img/cards/bloei-en-leef-maaike-plukken.jpg"); }
+
+#newsSection #logoFlower {
+  overflow: hidden;
+  border-radius: 100%; }
+  #newsSection #logoFlower svg {
+    margin-bottom: -49%; }
+  #newsSection #logoFlower .logo {
+    width: 50%;
+    height: 50%;
+    margin: 0 auto 0 auto; }
+#newsSection .newsCard {
+  border: 10px solid white;
+  border-radius: 20px; }
+  #newsSection .newsCard .cardBorder {
+    background-color: #DCDCDC;
+    border-radius: 10px; }
+    #newsSection .newsCard .cardBorder .cardTitle h2 {
+      text-shadow: 2px 2px 5px white, 2px -2px 5px white, -2px 2px 5px white, 2px -2px 5px white, 0px 0px 10px white; }
+    #newsSection .newsCard .cardBorder .imgCard {
+      height: 30vh;
+      background-size: cover;
+      background-position: top;
+      clip-path: polygon(100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+      border-radius: 10px;
+      padding: 20px; }
+    #newsSection .newsCard .cardBorder .cardInfo {
+      padding: 10px 20px; }
+      #newsSection .newsCard .cardBorder .cardInfo h3, #newsSection .newsCard .cardBorder .cardInfo h4 {
+        text-align: left; }
+#newsSection #card1 .imgCard {
+  background-image: url("../img/temp/bloei-en-leef-brownie.jpg"); }
+#newsSection #card2 .imgCard {
+  background-image: url("../img/temp/bloei-en-leef-blog-melinda-1.jpg"); }
+#newsSection #card3 .imgCard {
+  background-image: url("../img/temp/bloei-en-leef-rozemarijn.jpg"); }
+
+.jumbotron {
+  background-image: url(../img/backgrounds/bloei-en-leef-recepten-background-img.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px; }
+  .jumbotron h2 {
+    align-self: center;
+    color: white;
+    text-shadow: 0px 4px 3px black; }
+
+.receptCard {
+  background-position: center;
+  background-size: cover;
+  border: 10px solid white;
+  border-radius: 20px; }
+  .receptCard h2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px; }
+    .receptCard h2 a {
+      color: white; }
+      .receptCard h2 a:hover {
+        color: #008d90; }
+  .receptCard .receptintro {
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    opacity: 0; }
+    .receptCard .receptintro:hover {
+      background-color: rgba(255, 255, 255, 0.9);
+      opacity: 1; }
+
+#backToRecepten {
+  display: inline-block;
+  margin-top: -55px;
+  margin-bottom: 0px;
+  color: white;
+  text-shadow: 0px 4px 3px black; }
+
+.receptContent label {
+  margin-bottom: 35px;
+  width: 100%; }
+  .receptContent label .inputBar {
+    display: flex;
+    flex-direction: row;
+    margin: 20px; }
+    .receptContent label .inputBar input {
+      margin: 0 20px; }
+.receptContent ul {
+  list-style-image: url("../favicon.ico");
+  font-size: 1.3em;
+  line-height: 20px; }
+.receptContent .completed {
+  color: gray;
+  text-decoration: line-through; }
+.receptContent ul:hover {
+  cursor: pointer;
+  cursor: hand; }
+.receptContent input[type=range] {
+  -webkit-appearance: none;
+  width: 100%;
+  margin: 7.3px 0; }
+.receptContent input[type=range]:focus {
+  outline: none; }
+.receptContent input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 11.4px;
+  cursor: pointer;
+  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);
+  background: #008d90;
+  border-radius: 10px; }
+.receptContent input[type=range]::-webkit-slider-thumb {
+  box-shadow: 0.9px 0.9px 1px #000031, 0px 0px 0.9px #00004b;
+  border: 1.8px solid rgba(0, 0, 30, 0);
+  height: 26px;
+  width: 26px;
+  border-radius: 15px;
+  background: #8A2BE2;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -7.3px; }
+.receptContent input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #444444; }
+.receptContent input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 11.4px;
+  cursor: pointer;
+  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);
+  background: #008d90;
+  border-radius: 10px; }
+.receptContent input[type=range]::-moz-range-thumb {
+  box-shadow: 0.9px 0.9px 1px #000031, 0px 0px 0.9px #00004b;
+  border: 1.8px solid rgba(0, 0, 30, 0);
+  height: 26px;
+  width: 26px;
+  border-radius: 15px;
+  background: #8A2BE2;
+  cursor: pointer; }
+.receptContent input[type=range]::-ms-track {
+  width: 100%;
+  height: 11.4px;
+  cursor: pointer; }
+.receptContent input[type=range]::-ms-fill-lower {
+  border-radius: 20px; }
+.receptContent input[type=range]::-ms-fill-upper {
+  background: #008d90;
+  border-radius: 20px; }
+.receptContent input[type=range]::-ms-thumb {
+  box-shadow: 0.9px 0.9px 1px #000031, 0px 0px 0.9px #00004b;
+  height: 26px;
+  width: 26px;
+  border-radius: 15px;
+  background: #8A2BE2;
+  cursor: pointer;
+  height: 11.4px; }
+.receptContent input[type=range]:focus::-ms-fill-lower {
+  background: #008d90; }
+.receptContent input[type=range]:focus::-ms-fill-upper {
+  background: #444444; }
