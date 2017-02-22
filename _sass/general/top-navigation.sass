@@ -1,0 +1,77 @@
+.static-navigation-container
+  position: fixed
+  left: 20px
+  top: 20px
+  min-width: 40px
+  margin-right: 20px
+  z-index: 30
+  .static-navigation-hover-container
+    position: relative
+    display: flex
+    flex-direction: row
+    flex-wrap: nowrap
+    overflow: hidden
+    border-radius: 15px
+    z-index: 30
+    &:hover
+      cursor: hand
+      cursor: pointer
+      .top-navigation-container
+        margin-left: 10px
+        transition: 1s
+      .static-navigation-cross
+        margin-left: 10px
+        transition: 1s
+
+    .bl-leaf
+      position: relative
+      width: 40px
+      height: 40px
+      z-index: 33
+
+    .static-navigation-cross
+      position: relative
+      width: 40px
+      height: 40px
+      min-width: 40px
+      background-color: rgba(255,255,255, 1)
+      border-radius: 100%
+      margin-left: -80px
+      z-index: 32
+      transition: 1s
+      &:hover
+        margin-left: -80px
+        transition: 1s
+        transition-delay: 0.5s
+      &:hover + .top-navigation-container
+        margin-left: -1000px
+        transition: 1s
+        transition-delay: 0.5s
+      h4
+        color: $bl-green
+        padding: 0
+        margin: 0
+        line-height: 40px
+        &:hover
+          color: $bl-hover-color
+          text-decoration: none
+
+    .top-navigation-container
+      position: relative
+      background-color: rgba(255,255,255, 1)
+      border-radius: 20px
+      margin-left: -1000px
+      padding: 0 10px 0 10px
+      transition: 1s
+      z-index: 31
+      nav
+        a
+          color: $bl-green
+          font-weight: bolder
+          text-transform: uppercase
+          margin: 0 5px 0 5px
+          white-space: nowrap
+          line-height: 40px
+          &:hover
+            color: $bl-hover-color
+            text-decoration: none

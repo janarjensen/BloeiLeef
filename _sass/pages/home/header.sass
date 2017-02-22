@@ -1,0 +1,73 @@
+#headerSection
+	width: 100vw
+	min-height: 100vh
+	background-size: cover
+	background-position: center center
+	display: flex
+	flex-direction: column
+	transition: 2s
+	margin-top: 0px
+
+	// *****logo*****
+	.logo
+		width: 50%
+		max-width: 300px
+		margin: 14vh auto 4vh auto
+		padding: 30px
+		background-color: rgba(255,255,255,0.5)
+		box-shadow: 0px 0px 10px rgb(255,255,255)
+		align-self: flex-start
+		border-radius: 100%
+		svg
+			filter: drop-shadow(0px 4px 3px rgba(0,0,0,0.8))
+
+	// *****kicker*****
+	.kicker
+		padding: 0 5%
+		margin: auto
+		display: flex
+		flex-direction: column
+		background-color: rgba(255,255,255,0.5)
+		box-shadow: 0px 0px 10px rgb(255,255,255)
+		align-self: center
+		color: $bl-green
+		text-shadow: 0px 4px 3px rgba(0,0,0,0.3)
+
+
+	// *****slider circles*****
+	.circles
+		width: 90vw
+		margin: auto
+		margin-bottom: 20px
+		display: flex
+		flex-direction: row
+		justify-content: space-around
+		align-self: flex-end
+		&:hover
+			cursor: pointer
+		.circle
+			width: 40px
+			height: 40px
+			border-radius: 100%
+			background-color: rgba(255,255,255,0.5)
+			box-shadow: 0px 0px 10px rgb(255,255,255)
+			text-align: center
+			i
+				line-height: 40px
+				font-size: 25px
+				color: $bl-green
+				text-shadow: 0px 4px 3px rgba(0,0,0,0.3)
+
+.header1
+	background-image: url("../img/backgrounds/bloei-en-leef-header-img-2.jpg")
+	transition: 2s
+
+.header2
+	background-image: url("../img/backgrounds/bloei-en-leef-header-img-1.jpg")
+	transition: 2s
+.header3
+	background-image: url("../img/backgrounds/bloei-en-leef-header-img-3.jpg")
+	transition: 2s
+.selected
+	transform: scale(1.5)
+	transition: 2s
