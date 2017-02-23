@@ -1,7 +1,7 @@
 ---
 layout: recept
 title: humus
-image_path: ../img/recepten/humus.jpg
+image_path: img/recepten/humus.jpg
 ---
 
 **Smeren, dippen én uitlikken!**
