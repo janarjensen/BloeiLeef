@@ -1,7 +1,7 @@
 ---
 layout: recept
 title: snickers
-image_path: ../img/recepten/snickers.jpg
+image_path: img/recepten/snickers.jpg
 ---
 
 **Stevige gezonde trek!**
@@ -27,6 +27,6 @@ image_path: ../img/recepten/snickers.jpg
 
 ##### Tips!
 * Gebruik je geen medjool maar andere dadels? Hou er dan rekening mee dat een gewone dadel ongeveer 2,5 tot 3 keer past in 1 medjool dadel. Dus heb je in plaats van 12, ongeveer 36 dadels nodig!
-* Gebruik nooit de pindakaas variant waarbij je de deksel open kunt draaien en het potje op de kop kunt houden zonder dat er iets uit loopt! Deze varianten zitten namelijk bomvol de slechte transvetten. Kies je voor de pindakaas waarop je bij de aanschaf ervan eerst een laag gezonde pindaolie ziet drijven? Dan zit je goed! Voor gebruik natuurlijk eerst de olie er goed doorheen roeren zodat het goed en lang smeuig blijft. Lijkt vetter maar geloof mij, die vetten zijn gezond en goed voor je lijf! Die met transvetten is écht super mega ongezond voor je lichaam en onderaan de streep maakt het jou juist VET. Interessant weetje, toch? 
+* Gebruik nooit de pindakaas variant waarbij je de deksel open kunt draaien en het potje op de kop kunt houden zonder dat er iets uit loopt! Deze varianten zitten namelijk bomvol de slechte transvetten. Kies je voor de pindakaas waarop je bij de aanschaf ervan eerst een laag gezonde pindaolie ziet drijven? Dan zit je goed! Voor gebruik natuurlijk eerst de olie er goed doorheen roeren zodat het goed en lang smeuig blijft. Lijkt vetter maar geloof mij, die vetten zijn gezond en goed voor je lijf! Die met transvetten is écht super mega ongezond voor je lichaam en onderaan de streep maakt het jou juist VET. Interessant weetje, toch?
 
 ###### Klaar! Dus optimaal genieten maar van je stevige trek moment!
