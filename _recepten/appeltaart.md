@@ -1,7 +1,7 @@
 ---
 layout: recept
 title: appeltaart
-image_path: ../img/recepten/appeltaart.jpg
+image_path: img/recepten/appeltaart.jpg
 ---
 
 **Zonder schuldgevoel genieten!**
