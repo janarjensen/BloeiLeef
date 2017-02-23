@@ -1,7 +1,7 @@
 ---
 layout: recept
 title: bieten carpaccio
-image_path: ../img/recepten/bieten-carpaccio.jpg
+image_path: img/recepten/bieten-carpaccio.jpg
 ---
 
 **Culinair zonder gedoe!**
