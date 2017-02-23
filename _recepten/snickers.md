@@ -1,7 +1,7 @@
 ---
 layout: recept
 title: snickers
-image_path: ../img/recepten/snickers.jpg
+image_path: img/recepten/snickers.jpg
 ---
 
 **Stevige gezonde trek!**
