@@ -3,19 +3,18 @@ layout: default
 title: Recepten
 ---
 <div class="container">
-	<div class="jumbotron">
+	<div class="jumbotron" style="background-image: url({{site.baseurl}}/img/backgrounds/bloei-en-leef-recepten-background-img.jpg)">
 		<h2>Heerlijke recepten voor een gezonde trek</h2>
 	</div>
 
 	<div class="row">
 		{% for recept in site.recepten %}
-			<div style="background-image: url({{ recept.image_path }})" class="col-lg-3 col-sm-4 receptCard">
-				<h2><a href="{{site.baseurl}}.recepten.{{ recept.url }}">{{ recept.title }}</a></h2>
+			<div style="background-image: url({{site.baseurl}}/img/recepten/{{recept.imageName}})" class="col-lg-3 col-sm-6 receptCard">
+				<h2><a href="{{site.baseurl}}.{{recept.url}}">{{ recept.title }}</a></h2>
 				<div onclick="" class="receptIntro">
 					{{ recept.content | truncate: 200 }}
 				</div>
 			</div>
 		{% endfor %}
 	</div>
-
 </div>

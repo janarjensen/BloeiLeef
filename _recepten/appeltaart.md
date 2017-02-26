@@ -1,13 +1,13 @@
 ---
 layout: recept
 title: appeltaart
-image_path: img/recepten/appeltaart.jpg
+imageName: appeltaart.jpg
 ---
 
 **Zonder schuldgevoel genieten!**
 
 *Durf je het te geloven? Van dit verrukkelijke appeltaart recept kun je écht zonder schuldgevoel van genieten!*
-Zeg maar hoe je het wilt hebben! Als ontbijt? Tussendoortje? Of als lunch? 't Kan écht allemaal! Én ook nog eens super makkelijk te maken, dus duik lekker je keuken in en geniet ervan!
+Zeg maar hoe je het wilt hebben! Als ontbijt? Tussendoortje? Of als lunch? 't Kan écht  allemaal! Én ook nog eens super makkelijk te maken, dus duik lekker je keuken in en geniet ervan!
 
 ##### Ingredienten voor <span class="personen">4</span> personen
 * <span class="volume">8</span> bio eieren
