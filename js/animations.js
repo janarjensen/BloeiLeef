@@ -34,7 +34,7 @@ $("input[type='range']").on("change", function(event){
   // multiply input with volumes
   $(".volume").each(function(){
     var newVolume = ($(this).text() / nrOfPStart * nrOfP);
-    $(this).text(newVolume);
+    $(this).text(newVolume.toPrecision(2));
   });
   // update totle nr of persones
   $("#personen").text(nrOfP);

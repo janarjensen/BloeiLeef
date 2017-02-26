@@ -10,12 +10,11 @@ title: Recepten
 	<div class="row">
 		{% for recept in site.recepten %}
 			<div style="background-image: url({{ recept.image_path }})" class="col-lg-3 col-sm-4 receptCard">
-				<h2><a href="{{ recept.url }}">{{ recept.title }}</a></h2>
+				<h2><a href="{{site.baseurl}}.{{recept.url}}">{{ recept.title }}</a></h2>
 				<div onclick="" class="receptIntro">
 					{{ recept.content | truncate: 200 }}
 				</div>
 			</div>
 		{% endfor %}
 	</div>
-
 </div>
