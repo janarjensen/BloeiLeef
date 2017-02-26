@@ -20,22 +20,22 @@
   <link rel="stylesheet" type="text/css" href="/css/styles.css">
 
 	<!-- favicon support -->
-	<link rel="apple-touch-icon" sizes="57x57" href="../favicon/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="../favicon/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="../favicon/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="../favicon/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="../favicon/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="../favicon/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="../favicon/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="../favicon/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="../favicon/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="../favicon/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
-	<link rel="manifest" href="../favicon/manifest.json">
+	<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/manifest.json">
 	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="../favicon/ms-icon-144x144.png">
+	<meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 
 </head>
@@ -105,9 +105,12 @@
 
 <div class="container">
   <div id="receptJumbotron"style="background-image: url(/img/recepten/snickers.jpg)" class="jumbotron">
-    <h2>snickers</h2>
+    <h1>snickers</h1>
   </div>
-  <a id="backToRecepten" href="/recepten.html"><i class="fa fa-undo" aria-hidden="true"></i> recepten</a>
+  <div class="receptTitleInfo">
+    <a id="backToRecepten" href="/recepten.html"><i class="fa fa-undo" aria-hidden="true"></i> recepten</a>
+    <p id="date">16 NOV 2016</p>
+  </div>
   <div class="receptContent">
     <label><h5>kies aantal personen... (<span class="personen">4</span>)</h5>
       <div class="inputBar">
@@ -232,5 +235,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.0/jquery.matchHeight-min.js" integrity="sha256-a/H26zcixe1svu2fYax7ANJMSzGYyJNI52hKKYJTar8=" crossorigin="anonymous"></script>
 
 <!-- pulling in AJ animations -->
+
 <script type="text/javascript" src="/js/animations.js"></script>
 

@@ -1,11 +1,22 @@
 // jumbotron gets sass from recepten.sass
 
-#backToRecepten
-  display: inline-block
-  margin-top: -55px
-  margin-bottom: 0px
-  color: white
+.receptTitleInfo
   text-shadow: 0px 4px 3px black
+  margin-top: -65px
+  display: inline-flex
+  flex-direction: row
+  justify-content: space-between
+  width: 100%
+  padding: 0 10px
+
+  #backToRecepten
+    color: white
+    align-self: baseline
+    &:hover
+      color: $bl-hover-color
+  #date
+    color: white
+    align-self: baseline
 
 .receptContent
   label
@@ -29,6 +40,9 @@
   ul:hover
     cursor: pointer
     cursor: hand
+
+  #date
+    text-align: right
 
   // input range styling genrated from http://danielstern.ca/range.css/#/
   input[type=range]

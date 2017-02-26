@@ -2,6 +2,7 @@
 layout: recept
 title: appeltaart
 imageName: appeltaart.jpg
+dateAdded: 17 NOV 2016
 ---
 
 **Zonder schuldgevoel genieten!**

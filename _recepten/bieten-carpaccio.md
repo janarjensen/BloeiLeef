@@ -2,6 +2,7 @@
 layout: recept
 title: bieten carpaccio
 imageName: bieten-carpaccio.jpg
+dateAdded: 25 NOV 2016
 ---
 
 **Culinair zonder gedoe!**

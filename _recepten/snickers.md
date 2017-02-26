@@ -2,6 +2,7 @@
 layout: recept
 title: snickers
 imageName: snickers.jpg
+dateAdded: 16 NOV 2016
 ---
 
 **Stevige gezonde trek!**

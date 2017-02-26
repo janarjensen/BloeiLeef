@@ -407,7 +407,7 @@ footer {
   display: flex;
   justify-content: center;
   margin-top: 40px; }
-  .jumbotron h2 {
+  .jumbotron h2, .jumbotron h1 {
     align-self: center;
     color: white;
     text-shadow: 0px 4px 3px black; }
@@ -434,12 +434,22 @@ footer {
       background-color: rgba(255, 255, 255, 0.9);
       opacity: 1; }
 
-#backToRecepten {
-  display: inline-block;
-  margin-top: -55px;
-  margin-bottom: 0px;
-  color: white;
-  text-shadow: 0px 4px 3px black; }
+.receptTitleInfo {
+  text-shadow: 0px 4px 3px black;
+  margin-top: -65px;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 10px; }
+  .receptTitleInfo #backToRecepten {
+    color: white;
+    align-self: baseline; }
+    .receptTitleInfo #backToRecepten:hover {
+      color: #8A2BE2; }
+  .receptTitleInfo #date {
+    color: white;
+    align-self: baseline; }
 
 .receptContent label {
   margin-bottom: 35px;
@@ -460,6 +470,8 @@ footer {
 .receptContent ul:hover {
   cursor: pointer;
   cursor: hand; }
+.receptContent #date {
+  text-align: right; }
 .receptContent input[type=range] {
   -webkit-appearance: none;
   width: 100%;
