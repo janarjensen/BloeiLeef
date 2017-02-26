@@ -369,8 +369,7 @@ footer {
 
 #newsSection #logoFlower .logo {
   margin: 0 auto;
-  width: 50%;
-  max-width: 400px; }
+  height: 20vh; }
 #newsSection .newsCard {
   border: 10px solid white;
   border-radius: 20px; }
