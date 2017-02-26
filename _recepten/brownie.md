@@ -1,7 +1,7 @@
 ---
 layout: recept
 title: brownie
-image_path: img/recepten/brownie.jpg
+imageName: brownie.jpg
 ---
 
 **Hormoonfactor proof**
