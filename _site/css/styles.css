@@ -248,8 +248,10 @@ footer {
   margin-top: 0px; }
   #headerSection .logo {
     width: 50%;
+    height: 50%;
     max-width: 300px;
-    margin: 14vh auto 4vh auto;
+    max-height: 300px;
+    margin: 12vh auto 4vh auto;
     padding: 30px;
     background-color: rgba(255, 255, 255, 0.5);
     box-shadow: 0px 0px 10px white;
