@@ -367,15 +367,10 @@ footer {
 #cardsSection #card5 {
   background-image: url("../img/cards/bloei-en-leef-maaike-plukken.jpg"); }
 
-#newsSection #logoFlower {
-  overflow: hidden;
-  border-radius: 100%; }
-  #newsSection #logoFlower svg {
-    margin-bottom: -49%; }
-  #newsSection #logoFlower .logo {
-    width: 50%;
-    height: 50%;
-    margin: 0 auto 0 auto; }
+#newsSection #logoFlower .logo {
+  margin: 0 auto;
+  width: 50%;
+  max-width: 400px; }
 #newsSection .newsCard {
   border: 10px solid white;
   border-radius: 20px; }

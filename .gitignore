@@ -1,3 +1,6 @@
+# git Ignore AJ
+.sass-cache
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
