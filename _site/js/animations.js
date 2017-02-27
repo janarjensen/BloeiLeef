@@ -1,3 +1,8 @@
+// toggle class of statNav
+$(".statNavLogo").click(function(){
+  $("#statNav").toggleClass("clicked unClicked");
+});
+
 // ----------header circle buttons
 $("#circle1").on("click", function(){
   $(this).addClass("selected");
