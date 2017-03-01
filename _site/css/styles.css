@@ -352,6 +352,12 @@ footer {
       padding: 10px 20px; }
       #newsSection .newsCard .cardBorder .cardInfo h3, #newsSection .newsCard .cardBorder .cardInfo h4 {
         text-align: left; }
+      #newsSection .newsCard .cardBorder .cardInfo .newsImgUrl {
+        display: none; }
+#newsSection #card1 .displayNot {
+  display: none; }
+#newsSection #card1 .display {
+  display: relative; }
 #newsSection #card2 .imgCard {
   background-image: url("../img/temp/bloei-en-leef-blog-melinda-1.jpg"); }
 #newsSection #card3 .imgCard {

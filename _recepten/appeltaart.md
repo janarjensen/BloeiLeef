@@ -3,9 +3,9 @@ layout: recept
 title: appeltaart
 imageName: appeltaart.jpg
 dateAdded: 17 NOV 2016
+intro: Zonder schuldgevoel genieten!
+vegetarian: true
 ---
-
-**Zonder schuldgevoel genieten!**
 
 *Durf je het te geloven? Van dit verrukkelijke appeltaart recept kun je écht zonder schuldgevoel van genieten!*
 Zeg maar hoe je het wilt hebben! Als ontbijt? Tussendoortje? Of als lunch? 't Kan écht  allemaal! Én ook nog eens super makkelijk te maken, dus duik lekker je keuken in en geniet ervan!

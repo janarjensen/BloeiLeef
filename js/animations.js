@@ -19,13 +19,23 @@ $("#circle3").on("click", function(){
   $("#headerSection").removeClass().addClass("header3");
   $("#kickerText").text("Niet lekker in je vel? Niet op gewicht? Vage klachten?")
 })
-// ----------set equal heights to all divs in row
+
+// ----------set equal heights to all cards in Home
 $(function() {
     $('.cardBorder').matchHeight();
 });
+
+// -----------random diplay recept in news card 1
+var randomReceptNr = Math.floor(Math.random() * $(".newsRecept").length)
+var receptImgUrl = $(".newsRecept > p").eq(randomReceptNr).text();
+$(".newsRecept").eq(randomReceptNr).toggleClass("display displayNot");
+$("#receptImg").css("background-image", "url("+ receptImgUrl +")");
+
+// ----------set equal heights to all news in home (after news random display)
 $(function() {
     $('.receptCard').matchHeight();
 });
+
 // ----------set nr of persons for recipe
 var nrOfPStart = 4
 // change number of people in h2

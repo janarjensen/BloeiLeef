@@ -3,9 +3,9 @@ layout: recept
 title: bieten carpaccio
 imageName: bieten-carpaccio.jpg
 dateAdded: 25 NOV 2016
+intro: Culinair zonder gedoe!
+vegetarian: true
 ---
-
-**Culinair zonder gedoe!**
 
 Deze bieten carpaccio is zo ontzettend lekker! Bieten zijn prachtvoer, 't is prachtig op je bord én je lijf vindt het al helemaal overheerlijk-prachtig :) ! Én wat ook zo leuk en fijn is, dat je een culinaire uitraling presenteerd, zonder dat het een gedoe is om te maken. Dat wil jij toch ook? Precies, ga aan de slag, geniet in je keuken én maak er een feestje van op je bord! Resultaat? Dat het een feestje is voor 't oog, je smaak én je lijf. Én vergeet vooral niet te lezen waarom bieten zo lekker gezond voor jou zijn!
 

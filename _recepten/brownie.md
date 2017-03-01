@@ -3,9 +3,9 @@ layout: recept
 title: brownie
 imageName: brownie.jpg
 dateAdded: 12 JAN 2017
+intro: Hormoonfactor proof
+vegetarian: true
 ---
-
-**Hormoonfactor proof**
 
 Voordat we het recept met jou delen, eerst een belevingsreactie door Ralph Moorman, auteur, innitiatiefnemer en directeur van De Hormoonfactor.
 

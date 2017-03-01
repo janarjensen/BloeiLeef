@@ -3,9 +3,9 @@ layout: recept
 title: snickers
 imageName: snickers.jpg
 dateAdded: 16 NOV 2016
+intro: Stevige gezonde trek!
+vegetarian: true
 ---
-
-**Stevige gezonde trek!**
 
 *Vooral mannen zijn vaak dol op snickers!*
 Écht iets voor de stevige trek, een super tussendoortje én deze is ook nog eens een fantastische aanrader voor na een pittig sportmoment! Waarom? Omdat het na het sporten je lichaam gelijk helpt herstellen. Er zitten namelijk ontzettend veel eiwitten en bouwstoffen in plus je kakt niet in! Je kunt weer lekker vooruit met het beleven van de rest van je dag! Jep, daar doen we het voor, toch?

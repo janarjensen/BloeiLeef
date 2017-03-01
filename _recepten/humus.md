@@ -3,9 +3,9 @@ layout: recept
 title: humus
 imageName: humus.jpg
 dateAdded: 15 NOV 2016
+intro: Smeren, dippen én uitlikken!
+vegetarian: true
 ---
-
-**Smeren, dippen én uitlikken!**
 
 Gewoon kikken die kikkererwten!
 Daarom eerst een aanvullend leuk weetje en dan volgt voor jou ons recept. Humus is gewoon altijd lekker, 't maakt niet uit bij welk seizoen of welk moment van de dag! Als lunch, tussendoortje, lekker dippen of bij tapas, zeg maar waar jij het meest blij van wordt?

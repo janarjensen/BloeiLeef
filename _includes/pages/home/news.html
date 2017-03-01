@@ -8,14 +8,19 @@
 
       <div id="card1" class="col-lg-4 col-sm-6 newsCard">
         <div class="cardBorder">
-          <div class="imgCard" style="background-image: url({{site.baseurl}}/img/recepten/brownie.jpg)">
+          <div id="receptImg" class="imgCard">
             <div class="cardTitle">
-              <h2><a href="{{site.baseurl}}/recepten.html">recepten</a></h2>
+              <h2><a href="{{ site.baseurl }}/recepten.html">recepten</a></h2>
             </div>
           </div>
           <div class="cardInfo">
-                <h3>Brownie maken</h3>
-                <h4>hormoon proof</h4>
+                {% for recept in site.recepten %}
+                  <div class="newsRecept displayNot">
+                    <h3>{{ recept.title }}</h3>
+                    <h4>{{ recept.intro }}</h4>
+                    <p class="newsImgUrl">{{ site.baseurl }}img/recepten/{{ recept.imageName }}</p>
+                  </div>
+                {% endfor %}
           </div>
         </div>
       </div>
