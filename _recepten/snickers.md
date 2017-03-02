@@ -5,6 +5,7 @@ imageName: snickers.jpg
 dateAdded: 16 NOV 2016
 intro: Stevige gezonde trek!
 vegetarian: true
+time: 140
 ---
 
 *Vooral mannen zijn vaak dol op snickers!*
@@ -12,11 +13,11 @@ vegetarian: true
 
 ##### Ingredienten voor <span class="personen">4</span> personen
 
-* <span class="volume">80</span> gram pinda's ongezout (grof kapot slaan in een zakje)
-* <span class="volume">12</span> grote medjool dadels ontpit
-* <span class="volume">2</span> grote lepels bio pindakaas
+* <b>80</b> gram pinda's ongezout (grof kapot slaan in een zakje)
+* <b>12</b> grote medjool dadels ontpit
+* <b>2</b> grote lepels bio pindakaas
 * snufje keltisch zeezout
-* <span class="volume">1</span> reep bio pure chocolade (au bain marie)
+* <b>1</b> reep bio pure chocolade (au bain marie)
 
 ##### Bereidingswijze
 * Vermeng de pinda's met het zout.

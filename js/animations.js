@@ -47,7 +47,7 @@ $("input[type='range']").on("change", function(event){
   // grab value from range input
   var nrOfP = $(this).val();
   // multiply input with volumes
-  $(".volume").each(function(){
+  $("b").each(function(){
     var newVolume = ($(this).text() / nrOfPStart * nrOfP);
     $(this).text(Math.round(newVolume*10)/10);
   });

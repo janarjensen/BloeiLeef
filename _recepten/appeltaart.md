@@ -5,23 +5,24 @@ imageName: appeltaart.jpg
 dateAdded: 17 NOV 2016
 intro: Zonder schuldgevoel genieten!
 vegetarian: true
+time: 60
 ---
 
 *Durf je het te geloven? Van dit verrukkelijke appeltaart recept kun je écht zonder schuldgevoel van genieten!*
 Zeg maar hoe je het wilt hebben! Als ontbijt? Tussendoortje? Of als lunch? 't Kan écht  allemaal! Én ook nog eens super makkelijk te maken, dus duik lekker je keuken in en geniet ervan!
 
 ##### Ingredienten voor <span class="personen">4</span> personen
-* <span class="volume">8</span> bio eieren
-* <span class="volume">3</span> rijpe bio bananen
-* <span class="volume">1</span> kopje bio haverzemelen
-* <span class="volume">2</span> cm rasp van verse bio gember
-* <span class="volume">1</span> bio citroen rasp & sap
-* <span class="volume">2</span> tl koekkruiden
-* <span class="volume">2</span> tl anijs
-* <span class="volume">3</span> tl kaneel
-* <span class="volume">5</span> bio goudreinetten <span class="volume">3</span> mét schil in dunne plakjes geraspt <span class="volume">2</span> in partjes voor op de bodem én bovenop
-* <span class="volume">2</span> handjes bio rozijnen
-* <span class="volume">16</span> gram baking soda of <span class="volume">32</span> gram bio baking poeder
+* <b>8</b> bio eieren
+* <b>3</b> rijpe bio bananen
+* <b>1</b> kopje bio haverzemelen
+* <b>2</b> cm rasp van verse bio gember
+* <b>1</b> bio citroen rasp & sap
+* <b>2</b> tl koekkruiden
+* <b>2</b> tl anijs
+* <b>3</b> tl kaneel
+* <b>5</b> bio goudreinetten <b>3</b> mét schil in dunne plakjes geraspt <b>2</b> in partjes voor op de bodem én bovenop
+* <b>2</b> handjes bio rozijnen
+* <b>16</b> gram baking soda of <b>32</b> gram bio baking poeder
 *  bio roomboter of kokosboter om je bakvorm in te vetten
 
 ##### Bereidingswijze

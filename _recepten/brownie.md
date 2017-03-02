@@ -5,6 +5,7 @@ imageName: brownie.jpg
 dateAdded: 12 JAN 2017
 intro: Hormoonfactor proof
 vegetarian: true
+time: 60
 ---
 
 Voordat we het recept met jou delen, eerst een belevingsreactie door Ralph Moorman, auteur, innitiatiefnemer en directeur van De Hormoonfactor.
@@ -16,15 +17,15 @@ Een van mijn bevlogen en enthousiaste Hormoonfactor studenten trakteerde tijdens
 
 * <span class="volume">500</span> gram bataat geschild en in stukjes
 *  kokosolie om de bataat mee in te vetten
-* <span class="volume">1</span> rijpe avocado
-* <span class="volume">120</span> gram dadels
-* <span class="volume">100</span> gram kokosmeel
-* <span class="volume">4</span> el. raw cacao
-* <span class="volume">2</span> el. raw cacao nips
-* <span class="volume">3</span> tl. kaneel
-* <span class="volume">2.5</span> tl. zuiveringszout of baking soda
-* <span class="volume">2</span> flinke draai(en) 4-seizoenen peper
-* <span class="volume">35</span> gram fijngehakte pecannoten
+* <b>1</b> rijpe avocado
+* <b>120</b> gram dadels
+* <b>100</b> gram kokosmeel
+* <b>4</b> el. raw cacao
+* <b>2</b> el. raw cacao nips
+* <b>3</b> tl. kaneel
+* <b>2.5</b> tl. zuiveringszout of baking soda
+* <b>2</b> flinke draai(en) 4-seizoenen peper
+* <b>35</b> gram fijngehakte pecannoten
 
 
 ##### Bereidingswijze

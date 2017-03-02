@@ -5,6 +5,7 @@ imageName: humus.jpg
 dateAdded: 15 NOV 2016
 intro: Smeren, dippen én uitlikken!
 vegetarian: true
+time: 15
 ---
 
 Gewoon kikken die kikkererwten!
@@ -12,14 +13,14 @@ Daarom eerst een aanvullend leuk weetje en dan volgt voor jou ons recept. Humus 
 
 ##### Ingredienten voor <span class="personen">4</span> personen
 
-* <span class="volume">2</span> zakjes of potjes bio kikkererwten à <span class="volume">300</span> g, afgespoeld en uitgelekt. (Kies je voor een zakje, laat dan de kikkererwten 6 uur weken)
-* <span class="volume">4</span> grote eetlepels bio tahin. (sesampasta, gebruik naar eigen smaak, de donkere of de witte zonder z.z.)
-* <span class="volume">80</span> ml citroensap van een bio citroen of limoen. (of een combinatie van beiden)
-* <span class="volume">3</span> teentjes geperste bio knoflook.
-* <span class="volume">4</span> bio bosuitjes. (kan gerust meer, dus naar eigen wens en smaak)
-* <span class="volume">2</span> sjalotjes.
-* <span class="volume">1</span> bio zoete puntpaprika.
-* <span class="volume">125</span> ml extra vierge bio en koudgeperste olijfolie.
+* <b>2</b> zakjes of potjes bio kikkererwten à <b>300</b> g, afgespoeld en uitgelekt. (Kies je voor een zakje, laat dan de kikkererwten 6 uur weken)
+* <b>4</b> grote eetlepels bio tahin. (sesampasta, gebruik naar eigen smaak, de donkere of de witte zonder z.z.)
+* <b>80</b> ml citroensap van een bio citroen of limoen. (of een combinatie van beiden)
+* <b>3</b> teentjes geperste bio knoflook.
+* <b>4</b> bio bosuitjes. (kan gerust meer, dus naar eigen wens en smaak)
+* <b>2</b> sjalotjes.
+* <b>1</b> bio zoete puntpaprika.
+* <b>125</b> ml extra vierge bio en koudgeperste olijfolie.
 * snufje 4-seizoenen peper en Keltisch zee zout.
 
 ##### Bereidingswijze
