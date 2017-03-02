@@ -4,7 +4,7 @@ title: appeltaart
 imageName: appeltaart.jpg
 dateAdded: 17 NOV 2016
 intro: Zonder schuldgevoel genieten!
-vegetarian: true
+vegetarian: false
 time: 60
 ---
 

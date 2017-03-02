@@ -4,12 +4,33 @@
   background-size: cover
   height: 50vh
   display: flex
+  flex-direction: column
   justify-content: center
   margin-top: 40px
   h2, h1
     align-self: center
     color: white
     text-shadow: 0px 4px 3px black
+.receptenInfo
+  color: white
+  text-shadow: 0px 4px 3px black
+  margin-top: -65px
+  display: inline-flex
+  flex-direction: row
+  justify-content: space-between
+  width: 100%
+  padding: 0 20px
+  #searchIcon
+    &:hover
+      cursor: pointer
+.receptenNav
+  display: flex
+  flex-direction: column
+  margin-top: -15
+.height0
+  height: 0
+.heightAuto
+  height: auto
 .receptCard
   background-position: center
   background-size: cover
@@ -23,11 +44,21 @@
       color: white
       &:hover
         color: $bl-green
-  .receptintro
-    padding: 10px
-    border-radius: $bl-border-radius-smal
-    margin-bottom: 10px
-    opacity: 0
+  .receptInfoCard
+    .receptInfo
+      color: white
+      text-shadow: 0px 4px 3px black
+      padding: 10px
+    .receptIntro
+      padding: 10px
+      border-radius: $bl-border-radius-smal
+      margin-bottom: 10px
+      opacity: 0
     &:hover
       background-color: rgba( 255,255,255,0.9)
-      opacity: 1
+      border-radius: $bl-border-radius-smal
+  .receptInfoCard:hover .receptIntro
+    opacity: 1
+  .receptInfoCard:hover .receptInfo
+    color: $bl-text-color
+    text-shadow: none

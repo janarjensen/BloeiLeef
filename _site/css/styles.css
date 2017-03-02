@@ -368,12 +368,36 @@ footer {
   background-size: cover;
   height: 50vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   margin-top: 40px; }
   .jumbotron h2, .jumbotron h1 {
     align-self: center;
     color: white;
     text-shadow: 0px 4px 3px black; }
+
+.receptenInfo {
+  color: white;
+  text-shadow: 0px 4px 3px black;
+  margin-top: -65px;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 20px; }
+  .receptenInfo #searchIcon:hover {
+    cursor: pointer; }
+
+.receptenNav {
+  display: flex;
+  flex-direction: column;
+  margin-top: -15; }
+
+.height0 {
+  height: 0; }
+
+.heightAuto {
+  height: auto; }
 
 .receptCard {
   background-position: center;
@@ -388,14 +412,23 @@ footer {
       color: white; }
       .receptCard h2 a:hover {
         color: #008d90; }
-  .receptCard .receptintro {
+  .receptCard .receptInfoCard .receptInfo {
+    color: white;
+    text-shadow: 0px 4px 3px black;
+    padding: 10px; }
+  .receptCard .receptInfoCard .receptIntro {
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 10px;
     opacity: 0; }
-    .receptCard .receptintro:hover {
-      background-color: rgba(255, 255, 255, 0.9);
-      opacity: 1; }
+  .receptCard .receptInfoCard:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px; }
+  .receptCard .receptInfoCard:hover .receptIntro {
+    opacity: 1; }
+  .receptCard .receptInfoCard:hover .receptInfo {
+    color: #444444;
+    text-shadow: none; }
 
 .receptTitleInfo {
   text-shadow: 0px 4px 3px black;
@@ -404,7 +437,7 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
-  padding: 0 10px; }
+  padding: 0 20px 0 14px; }
   .receptTitleInfo #backToRecepten {
     color: white;
     align-self: baseline; }
@@ -415,7 +448,6 @@ footer {
     align-self: baseline; }
 
 .receptContent label {
-  margin-bottom: 35px;
   width: 100%; }
   .receptContent label .inputBar {
     display: flex;

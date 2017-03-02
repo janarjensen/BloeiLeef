@@ -6,7 +6,7 @@ layout: default
     <h1>{{page.title}}</h1>
   </div>
   <div class="receptTitleInfo">
-    <a id="backToRecepten" href="{{site.baseurl}}/recepten.html"><i class="fa fa-undo" aria-hidden="true"></i> recepten</a>
+    <a id="backToRecepten" href="{{site.baseurl}}/recepten.html"><i class="fa fa-undo" aria-hidden="true"></i> RECEPTEN</a>
     <p id="date">{{page.dateAdded}}</p>
   </div>
   <div class="receptContent">
@@ -17,8 +17,11 @@ layout: default
         <span>12</span>
       </div>
     </label>
-
-    <p><strong>{{page.intro}}</strong></p>
+    <h5><i class="fa fa-clock-o" aria-hidden="true"></i>  {{ page.time }}  min
+      {% if page.vegetarian %}
+      <i class="fa fa-pagelines" aria-hidden="true"></i>  vegetarisch
+      {% endif %}</h5>
+    <p><strong>{{ page.intro }}</strong></p>
     {{ content }}
   </div>
 </div>

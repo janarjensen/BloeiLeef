@@ -6,21 +6,36 @@ title: Recepten
 	<div class="jumbotron" style="background-image: url({{site.baseurl}}/img/backgrounds/bloei-en-leef-recepten-background-img.jpg)">
 		<h2>Heerlijke recepten voor een gezonde trek</h2>
 	</div>
-
-	<div class="receptenNav">
+	<div class="receptenInfo">
+		<p id="vegi"><i class="fa fa-pagelines" aria-hidden="true"></i> IS VEGETARISCH</p>
+		<p id="searchIcon" onclick=""><i class="fa fa-search" aria-hidden="true"></i></p>
+	</div>
+	<div class="receptenNav height0">
 		{% for recept in site.recepten %}
-			<a href="{{site.baseurl}}{{recept.url}}">{{ recept.title }}</a>
+			<a href="{{site.baseurl}}{{recept.url}}">{{ recept.title }}
+				{% if recept.vegetarian %}
+				<i class="fa fa-pagelines" aria-hidden="true"></i>
+				{% endif %}
+			</a>
 		{% endfor %}
 	</div>
-
 	<div class="row">
 		{% for recept in site.recepten %}
 			<div style="background-image: url({{site.baseurl}}/img/recepten/{{recept.imageName}})" class="col-lg-3 col-sm-6 receptCard">
 				<h2><a href="{{site.baseurl}}{{recept.url}}">{{ recept.title }}</a></h2>
-				<div onclick="" class="receptIntro">
-					<strong><p>{{ recept.intro }}</p></strong>
-					{{ recept.content | truncate: 250 }}
-					<a href="{{site.baseurl}}{{recept.url}}">lees meer</a>
+				<div onclick="" class="receptInfoCard">
+					<div class="receptInfo">
+						<strong><p>{{ recept.intro }}</p></strong>
+						<p><i class="fa fa-clock-o" aria-hidden="true"></i>  {{ recept.time }}  min
+				      {% if recept.vegetarian %}
+				      <i class="fa fa-pagelines" aria-hidden="true"></i>
+				      {% endif %}</p>
+					</div>
+					<div class="receptIntro">
+						<strong><p>{{ recept.intro }}</p></strong>
+						{{ recept.content | truncate: 80 }}
+						<a href="{{site.baseurl}}{{recept.url}}">lees meer</a>
+					</div>
 				</div>
 			</div>
 		{% endfor %}
