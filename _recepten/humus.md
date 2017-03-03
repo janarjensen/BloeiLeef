@@ -5,6 +5,7 @@ imageName: humus.jpg
 dateAdded: 15 NOV 2016
 intro: Smeren, dippen én uitlikken!
 vegetarian: true
+hormone: false
 time: 15
 ---
 

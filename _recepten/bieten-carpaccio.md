@@ -5,6 +5,7 @@ imageName: bieten-carpaccio.jpg
 dateAdded: 25 NOV 2016
 intro: Culinair zonder gedoe!
 vegetarian: true
+hormone: false
 time: 45
 ---
 

@@ -16,8 +16,8 @@
           <div class="cardInfo">
                 {% for recept in site.recepten %}
                   <div class="newsRecept displayNot">
-                    <h3>{{ recept.title }}</h3>
-                    <h4>{{ recept.intro }}</h4>
+                    <a href="{{site.baseurl}}{{recept.url}}"><h3>{{ recept.title }}</h3></a>
+                    <a href="{{site.baseurl}}{{recept.url}}"><h4>{{ recept.intro }}</h4></a>
                     <p class="newsImgUrl">{{ site.baseurl }}/img/recepten/{{ recept.imageName }}</p>
                   </div>
                 {% endfor %}

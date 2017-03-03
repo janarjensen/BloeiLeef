@@ -10,23 +10,24 @@
   h2, h1
     align-self: center
     color: white
-    text-shadow: 0px 4px 3px black
+    text-shadow: 2px 2px 5px black, 2px -2px 5px black, -2px 2px 5px black, 0px 0px 15px black
 .receptenInfo
-  color: white
-  text-shadow: 0px 4px 3px black
-  margin-top: -65px
   display: inline-flex
   flex-direction: row
   justify-content: space-between
   width: 100%
-  padding: 0 20px
+  #receptSuffice
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    .suffice
+      margin-right: 20px
   #searchIcon
     &:hover
       cursor: pointer
 .receptenNav
   display: flex
   flex-direction: column
-  margin-top: -15
 .height0
   height: 0
 .heightAuto
@@ -47,7 +48,7 @@
   .receptInfoCard
     .receptInfo
       color: white
-      text-shadow: 0px 4px 3px black
+      text-shadow: 2px 2px 5px black, 2px -2px 5px black, -2px 2px 5px black, 0px 0px 15px black
       padding: 10px
     .receptIntro
       padding: 10px

@@ -5,6 +5,7 @@ imageName: snickers.jpg
 dateAdded: 16 NOV 2016
 intro: Stevige gezonde trek!
 vegetarian: true
+hormone: false
 time: 140
 ---
 

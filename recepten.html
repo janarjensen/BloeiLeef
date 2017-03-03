@@ -7,7 +7,10 @@ title: Recepten
 		<h2>Heerlijke recepten voor een gezonde trek</h2>
 	</div>
 	<div class="receptenInfo">
-		<p id="vegi"><i class="fa fa-pagelines" aria-hidden="true"></i> IS VEGETARISCH</p>
+		<div id="receptSuffice">
+			<p id="vegetarisch" class="suffice">vegetarisch <i class="fa fa-pagelines" aria-hidden="true"></i></p>
+			<p id="hormoon" class="suffice">hormoon <i class="fa fa-balance-scale" aria-hidden="true"></i></i></p>
+		</div>
 		<p id="searchIcon" onclick=""><i class="fa fa-search" aria-hidden="true"></i></p>
 	</div>
 	<div class="receptenNav height0">
@@ -15,6 +18,9 @@ title: Recepten
 			<a href="{{site.baseurl}}{{recept.url}}">{{ recept.title }}
 				{% if recept.vegetarian %}
 				<i class="fa fa-pagelines" aria-hidden="true"></i>
+				{% endif %}
+				{% if recept.hormone %}
+				<i class="fa fa-balance-scale" aria-hidden="true"></i>
 				{% endif %}
 			</a>
 		{% endfor %}
@@ -29,7 +35,11 @@ title: Recepten
 						<p><i class="fa fa-clock-o" aria-hidden="true"></i>  {{ recept.time }}  min
 				      {% if recept.vegetarian %}
 				      <i class="fa fa-pagelines" aria-hidden="true"></i>
-				      {% endif %}</p>
+				      {% endif %}
+							{% if recept.hormone %}
+							<i class="fa fa-balance-scale" aria-hidden="true"></i>
+							{% endif %}
+						</p>
 					</div>
 					<div class="receptIntro">
 						<strong><p>{{ recept.intro }}</p></strong>

@@ -5,6 +5,7 @@ imageName: appeltaart.jpg
 dateAdded: 17 NOV 2016
 intro: Zonder schuldgevoel genieten!
 vegetarian: false
+hormone: false
 time: 60
 ---
 

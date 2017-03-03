@@ -340,7 +340,11 @@ footer {
     background-color: #DCDCDC;
     border-radius: 10px; }
     #newsSection .newsCard .cardBorder .cardTitle h2 {
-      text-shadow: 2px 2px 5px white, 2px -2px 5px white, -2px 2px 5px white, 2px -2px 5px white, 0px 0px 10px white; }
+      text-shadow: 2px 2px 5px white, 2px -2px 5px white, -2px 2px 5px white, 0px 0px 15px white; }
+      #newsSection .newsCard .cardBorder .cardTitle h2 a {
+        color: #444444; }
+        #newsSection .newsCard .cardBorder .cardTitle h2 a:hover {
+          color: #8A2BE2; }
     #newsSection .newsCard .cardBorder .imgCard {
       height: 30vh;
       background-size: cover;
@@ -352,6 +356,8 @@ footer {
       padding: 10px 20px; }
       #newsSection .newsCard .cardBorder .cardInfo h3, #newsSection .newsCard .cardBorder .cardInfo h4 {
         text-align: left; }
+        #newsSection .newsCard .cardBorder .cardInfo h3:hover, #newsSection .newsCard .cardBorder .cardInfo h4:hover {
+          color: #8A2BE2; }
       #newsSection .newsCard .cardBorder .cardInfo .newsImgUrl {
         display: none; }
 #newsSection #card1 .displayNot {
@@ -374,24 +380,25 @@ footer {
   .jumbotron h2, .jumbotron h1 {
     align-self: center;
     color: white;
-    text-shadow: 0px 4px 3px black; }
+    text-shadow: 2px 2px 5px black, 2px -2px 5px black, -2px 2px 5px black, 0px 0px 15px black; }
 
 .receptenInfo {
-  color: white;
-  text-shadow: 0px 4px 3px black;
-  margin-top: -65px;
   display: inline-flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 100%;
-  padding: 0 20px; }
+  width: 100%; }
+  .receptenInfo #receptSuffice {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    .receptenInfo #receptSuffice .suffice {
+      margin-right: 20px; }
   .receptenInfo #searchIcon:hover {
     cursor: pointer; }
 
 .receptenNav {
   display: flex;
-  flex-direction: column;
-  margin-top: -15; }
+  flex-direction: column; }
 
 .height0 {
   height: 0; }
@@ -414,7 +421,7 @@ footer {
         color: #008d90; }
   .receptCard .receptInfoCard .receptInfo {
     color: white;
-    text-shadow: 0px 4px 3px black;
+    text-shadow: 2px 2px 5px black, 2px -2px 5px black, -2px 2px 5px black, 0px 0px 15px black;
     padding: 10px; }
   .receptCard .receptInfoCard .receptIntro {
     padding: 10px;

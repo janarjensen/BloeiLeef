@@ -5,6 +5,7 @@ imageName: brownie.jpg
 dateAdded: 12 JAN 2017
 intro: Hormoonfactor proof
 vegetarian: true
+hormone: true
 time: 60
 ---
 

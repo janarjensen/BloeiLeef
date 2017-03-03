@@ -12,7 +12,11 @@
       border-radius: 10px
       .cardTitle
         h2
-          text-shadow: 2px 2px 5px white, 2px -2px 5px white, -2px 2px 5px white, 2px -2px 5px white, 0px 0px 10px white
+          text-shadow: 2px 2px 5px white, 2px -2px 5px white, -2px 2px 5px white, 0px 0px 15px white
+          a
+            color: $bl-text-color
+            &:hover
+              color: $bl-hover-color
       .imgCard
         height: 30vh
         background-size: cover
@@ -24,8 +28,11 @@
         padding: 10px 20px
         h3, h4
           text-align: left
+          &:hover
+            color: $bl-hover-color
         .newsImgUrl
           display: none
+
 
   #card1
     .displayNot
