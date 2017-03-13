@@ -6,6 +6,9 @@ dateAdded: 25 NOV 2016
 intro: Culinair zonder gedoe!
 vegetarian: true
 hormone: false
+glutenFree: true
+dairyFree: true
+sugarFree: true
 time: 45
 ---
 

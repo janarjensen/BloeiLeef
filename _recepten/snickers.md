@@ -6,6 +6,9 @@ dateAdded: 16 NOV 2016
 intro: Stevige gezonde trek!
 vegetarian: true
 hormone: false
+glutenFree: true
+dairyFree: true
+sugarFree: true
 time: 140
 ---
 

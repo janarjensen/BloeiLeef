@@ -6,6 +6,9 @@ dateAdded: 17 NOV 2016
 intro: Zonder schuldgevoel genieten!
 vegetarian: false
 hormone: false
+glutenFree: false
+dairyFree: true
+sugarFree: true
 time: 60
 ---
 

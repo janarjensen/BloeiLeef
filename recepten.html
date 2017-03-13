@@ -23,7 +23,16 @@ title: Recepten
 				<span class="icon-vegetarian"></span>
 				{% endif %}
 				{% if recept.hormone %}
-				<span class="icon-hormone">
+				<span class="icon-hormone"></span>
+				{% endif %}
+				{% if recept.glutenFree %}
+				<span class="icon-nogluten"></span>
+				{% endif %}
+				{% if recept.dairyFree %}
+				<span class="icon-nomilk"></span>
+				{% endif %}
+				{% if recept.sugarFree %}
+				<span class="icon-nosugar"></span>
 				{% endif %}
 			</a>
 		{% endfor %}
@@ -41,6 +50,15 @@ title: Recepten
 				      {% endif %}
 							{% if recept.hormone %}
 							<span class="icon-hormone">
+							{% endif %}
+							{% if recept.glutenFree %}
+							<span class="icon-nogluten"></span>
+							{% endif %}
+							{% if recept.dairyFree %}
+							<span class="icon-nomilk"></span>
+							{% endif %}
+							{% if recept.sugarFree %}
+							<span class="icon-nosugar"></span>
 							{% endif %}
 						</p>
 					</div>

@@ -6,6 +6,9 @@ dateAdded: 12 JAN 2017
 intro: Hormoonfactor proof
 vegetarian: true
 hormone: true
+glutenFree: true
+dairyFree: true
+sugarFree: true
 time: 60
 ---
 

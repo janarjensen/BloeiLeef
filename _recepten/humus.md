@@ -6,6 +6,9 @@ dateAdded: 15 NOV 2016
 intro: Smeren, dippen én uitlikken!
 vegetarian: true
 hormone: false
+glutenFree: true
+dairyFree: true
+sugarFree: true
 time: 15
 ---
 
