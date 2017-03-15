@@ -10,15 +10,15 @@
         <div class="cardBorder">
           <div id="receptImg" class="imgCard">
             <div class="cardTitle">
-              <h2><a href="{{ site.baseurl }}/recepten.html">recepten</a></h2>
+              <h2><a href="{{ site.baseurl }}{{ url }}/recepten.html">recepten</a></h2>
             </div>
           </div>
           <div class="cardInfo">
                 {% for recept in site.recepten %}
                   <div class="newsRecept displayNot">
-                    <a href="{{site.baseurl}}{{recept.url}}"><h3>{{ recept.title }}</h3></a>
-                    <a href="{{site.baseurl}}{{recept.url}}"><h4>{{ recept.intro }}</h4></a>
-                    <p class="newsImgUrl">{{ site.baseurl }}/img/recepten/{{ recept.imageName }}</p>
+                    <a href="{{site.baseurl}}{{ url }}{{recept.url}}"><h3>{{ recept.title }}</h3></a>
+                    <a href="{{site.baseurl}}{{ url }}{{recept.url}}"><h4>{{ recept.intro }}</h4></a>
+                    <p class="ImgUrl">{{ site.baseurl }}{{ url }}/img/recepten/{{ recept.imageName }}</p>
                   </div>
                 {% endfor %}
           </div>
@@ -39,16 +39,21 @@
         </div>
       </div>
 
-      <div id="card3" class="col-lg-4 col-sm-12 newsCard">
+      <div id="card1" class="col-lg-4 col-sm-6 newsCard">
         <div class="cardBorder">
-          <div class="imgCard">
+          <div id="weetjeImg" class="imgCard">
             <div class="cardTitle">
-              <h2>weetjes</h2>
+              <h2><a href="{{ site.baseurl }}{{ url }}/weetjes.html">weetjes</a></h2>
             </div>
           </div>
           <div class="cardInfo">
-                <h3>Rozemarijn</h3>
-                <h4>prachtig mooi in geur, smaak en beleving</h4>
+                {% for weetje in site.weetjes %}
+                  <div class="newsWeetje displayNot">
+                    <a href="{{site.baseurl}}{{ url }}{{weetje.url}}"><h3>{{ weetje.title }}</h3></a>
+                    <a href="{{site.baseurl}}{{ url }}{{weetje.url}}"><h4>{{ weetje.intro }}</h4></a>
+                    <p class="ImgUrl">{{ site.baseurl }}{{ url }}/img/weetjes/{{ weetje.imageName }}</p>
+                  </div>
+                {% endfor %}
           </div>
         </div>
       </div>

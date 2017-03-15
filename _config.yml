@@ -9,3 +9,9 @@ url: "http://localhost:"
 collections:
   recepten:
     output: true
+
+  weetjes:
+    output: true
+
+  blogs:
+    output: true

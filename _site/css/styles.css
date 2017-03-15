@@ -80,7 +80,9 @@ a {
     opacity: 0; }
 
 footer {
-  margin-top: 8vh; }
+  margin-top: 8vh;
+  border-top: 1px dotted #008d90;
+  padding-top: 7vh; }
   footer #footerNav {
     margin-bottom: 8vh; }
     footer #footerNav #nav1 {
@@ -210,8 +212,8 @@ footer {
   transition: 2s;
   margin-top: 0px; }
   #headerSection .logo {
-    width: 50%;
-    height: 50%;
+    width: 50vw;
+    height: 50vw;
     max-width: 300px;
     max-height: 300px;
     margin: 12vh auto 4vh auto;
@@ -223,6 +225,7 @@ footer {
     #headerSection .logo svg {
       filter: drop-shadow(0px 4px 3px rgba(0, 0, 0, 0.8)); }
   #headerSection .kicker {
+    align-self: center;
     padding: 0 5%;
     margin: auto;
     display: flex;
@@ -233,13 +236,13 @@ footer {
     color: #008d90;
     text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.3); }
   #headerSection .circles {
+    align-self: flex-end;
     width: 90vw;
     margin: auto;
     margin-bottom: 20px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-self: flex-end; }
+    justify-content: space-around; }
     #headerSection .circles:hover {
       cursor: pointer; }
     #headerSection .circles .circle {
@@ -354,7 +357,7 @@ footer {
         text-align: left; }
         #newsSection .newsCard .cardBorder .cardInfo h3:hover, #newsSection .newsCard .cardBorder .cardInfo h4:hover {
           color: #8A2BE2; }
-      #newsSection .newsCard .cardBorder .cardInfo .newsImgUrl {
+      #newsSection .newsCard .cardBorder .cardInfo .ImgUrl {
         display: none; }
 #newsSection #card1 .displayNot {
   display: none; }
@@ -410,7 +413,8 @@ footer {
   .receptCard h2 {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
-    border-radius: 10px; }
+    border-radius: 10px;
+    word-wrap: break-word; }
     .receptCard h2 a {
       color: white; }
       .receptCard h2 a:hover {
@@ -470,6 +474,8 @@ footer {
   cursor: hand; }
 .receptContent #date {
   text-align: right; }
+.receptContent a {
+  text-decoration: underline; }
 .receptContent input[type=range] {
   -webkit-appearance: none;
   width: 100%;

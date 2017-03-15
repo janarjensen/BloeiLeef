@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<div class="container">
+  <div id="pageJumbotron"style="background-image: url({{site.baseurl}}/img/recepten/{{page.imageName}})" class="jumbotron">
+    <h1>{{page.title}}</h1>
+  </div>
+  <div class="receptTitleInfo">
+    <a id="backToRecepten" href="{{site.baseurl}}/recepten.html"><i class="fa fa-undo" aria-hidden="true"></i> RECEPTEN</a>
+    <p id="date">{{page.dateAdded}}</p>
+  </div>
+  <div class="receptContent">
+    <label><h5>kies aantal personen... (<span class="personen">4</span>)</h5>
+      <div class="inputBar">
+        <span>1</span>
+        <input type="range" value="4" min="1" max="12">
+        <span>12</span>
+      </div>
+    </label>
+    <h5><i class="fa fa-clock-o" aria-hidden="true"></i>  {{ page.time }}  min
+      {% if page.vegetarian %}
+      <span class="icon-vegetarian"></span>
+      {% endif %}
+      {% if page.hormone %}
+      <span class="icon-hormone"></span>
+      {% endif %}
+      {% if page.glutenFree %}
+      <span class="icon-nogluten"></span>
+      {% endif %}
+      {% if page.dairyFree %}
+      <span class="icon-nomilk"></span>
+      {% endif %}
+      {% if page.sugarFree %}
+      <span class="icon-nosugar"></span>
+      {% endif %}</h5>
+    <p><strong>{{ page.intro }}</strong></p>
+    {{ content }}
+  </div>
+</div>

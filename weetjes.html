@@ -1,0 +1,31 @@
+---
+layout: default
+title: Recepten
+---
+<div class="container">
+	<div class="jumbotron" style="background-image: url({{site.baseurl}}/img/backgrounds/bloei-en-leef-weetjes-background-img.jpg)">
+		<h2>Laat je verrassen met leuke weetjes</h2>
+	</div>
+	<div class="receptenNav height0">
+		{% for weetje in site.weetjes %}
+			<a href="{{site.baseurl}}{{weetje.url}}">{{ weetje.title }}</a>
+		{% endfor %}
+	</div>
+	<div class="row">
+		{% for weetje in site.weetjes %}
+			<div style="background-image: url({{site.baseurl}}/img/weetjes/{{weetje.imageName}})" class="col-lg-3 col-sm-6 receptCard">
+				<h2><a href="{{site.baseurl}}{{weetje.url}}">{{ weetje.title }}</a></h2>
+				<div onclick="" class="receptInfoCard">
+					<div class="receptInfo">
+						<strong><p>{{ weetje.intro }}</p></strong>
+					</div>
+					<div class="receptIntro">
+						<strong><p>{{ weetje.intro }}</p></strong>
+						{{ weetje.content | truncate: 80 }}
+						<a href="{{site.baseurl}}{{weetje.url}}">lees meer</a>
+					</div>
+				</div>
+			</div>
+		{% endfor %}
+	</div>
+</div>

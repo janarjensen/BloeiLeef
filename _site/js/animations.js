@@ -27,9 +27,15 @@ $(function() {
 
 // -----------random diplay recept in news card 1
 var randomReceptNr = Math.floor(Math.random() * $(".newsRecept").length)
-var receptImgUrl = $(".newsRecept > p").eq(randomReceptNr).text();
+var ImgUrl = $(".newsRecept > p").eq(randomReceptNr).text();
 $(".newsRecept").eq(randomReceptNr).toggleClass("display displayNot");
-$("#receptImg").css("background-image", "url("+ receptImgUrl +")");
+$("#receptImg").css("background-image", "url("+ ImgUrl +")");
+
+// -----------random diplay weetje in news card 3
+var randomWeetjeNr = Math.floor(Math.random() * $(".newsWeetje").length)
+var ImgUrl = $(".newsWeetje > p").eq(randomWeetjeNr).text();
+$(".newsWeetje").eq(randomWeetjeNr).toggleClass("display displayNot");
+$("#weetjeImg").css("background-image", "url("+ ImgUrl +")");
 
 // ----------set equal heights to all news in home (after news random display)
 $(function() {

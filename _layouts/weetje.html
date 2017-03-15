@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<div class="container">
+  <div id="pageJumbotron"style="background-image: url({{site.baseurl}}/img/weetjes/{{page.imageName}})" class="jumbotron">
+    <h1>{{page.title}}</h1>
+  </div>
+  <div class="receptTitleInfo">
+    <a id="backToRecepten" href="{{site.baseurl}}{{ url }}/weetjes.html"><i class="fa fa-undo" aria-hidden="true"></i> WEETJES</a>
+    <p id="date">{{page.dateAdded}}</p>
+  </div>
+  <div class="receptContent">
+    <p><strong>{{ page.intro }}</strong></p>
+    {{ content }}
+  </div>
+</div>
