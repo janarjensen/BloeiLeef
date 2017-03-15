@@ -1,71 +1,28 @@
 ---
 layout: default
-title: Recepten
+title: blogs
 ---
 <div class="container">
-	<div class="jumbotron" style="background-image: url({{site.baseurl}}/img/backgrounds/bloei-en-leef-recepten-background-img.jpg)">
-		<h2>Heerlijke recepten voor een gezonde trek</h2>
+	<div class="jumbotron" style="background-image: url({{site.baseurl}}/img/backgrounds/bloei-en-leef-blogs-background-img.jpg)">
+		<h2>Succesverhalen van gewone mensen</h2>
 	</div>
 	<div class="receptenInfo">
-		<div id="receptSuffice">
-			<p id="vegetarisch" class="suffice">vegetarisch <span class="icon-vegetarian"></span></p>
-			<p id="hormoon" class="suffice">hormoon <span class="icon-hormone"></span></p>
-			<p id="hormoon" class="suffice">glutenvrij <span class="icon-noGluten"></span></p>
-			<p id="hormoon" class="suffice">zuivelvrij <span class="icon-noMilk"></span></p>
-			<p id="hormoon" class="suffice">suikervrij <span class="icon-noSugar"></span></p>
-		</div>
 		<p id="searchIcon" onclick=""><i class="fa fa-search" aria-hidden="true"></i></p>
 	</div>
 	<div class="receptenNav height0">
-		{% for recept in site.recepten %}
-			<a href="{{site.baseurl}}{{recept.url}}">{{ recept.title }}
-				{% if recept.vegetarian %}
-				<span class="icon-vegetarian"></span>
-				{% endif %}
-				{% if recept.hormone %}
-				<span class="icon-hormone"></span>
-				{% endif %}
-				{% if recept.glutenFree %}
-				<span class="icon-nogluten"></span>
-				{% endif %}
-				{% if recept.dairyFree %}
-				<span class="icon-nomilk"></span>
-				{% endif %}
-				{% if recept.sugarFree %}
-				<span class="icon-nosugar"></span>
-				{% endif %}
-			</a>
+		{% for blog in site.blogs %}
+			<a href="{{site.baseurl}}{{blog.url}}">{{ blog.title }}</a>
 		{% endfor %}
 	</div>
 	<div class="row">
-		{% for recept in site.recepten %}
-			<div style="background-image: url({{site.baseurl}}/img/recepten/{{recept.imageName}})" class="col-lg-3 col-sm-6 receptCard">
-				<h2><a href="{{site.baseurl}}{{recept.url}}">{{ recept.title }}</a></h2>
+		{% for blog in site.blogs %}
+			<div style="background-image: url({{ site.baseurl}}/img/blogs/{{blog.imageName }})" class="col-lg-6 col-sm-6 receptCard">
+				<h2><a href="{{ site.baseurl }}{{ blog.url }}">{{ blog.title }}</a></h2>
 				<div onclick="" class="receptInfoCard">
-					<div class="receptInfo">
-						<strong><p>{{ recept.intro }}</p></strong>
-						<p><i class="fa fa-clock-o" aria-hidden="true"></i>  {{ recept.time }}  min
-				      {% if recept.vegetarian %}
-				      <span class="icon-vegetarian"></span>
-				      {% endif %}
-							{% if recept.hormone %}
-							<span class="icon-hormone">
-							{% endif %}
-							{% if recept.glutenFree %}
-							<span class="icon-nogluten"></span>
-							{% endif %}
-							{% if recept.dairyFree %}
-							<span class="icon-nomilk"></span>
-							{% endif %}
-							{% if recept.sugarFree %}
-							<span class="icon-nosugar"></span>
-							{% endif %}
-						</p>
-					</div>
 					<div class="receptIntro">
-						<strong><p>{{ recept.intro }}</p></strong>
-						{{ recept.content | truncate: 80 }}
-						<a href="{{site.baseurl}}{{recept.url}}">lees meer</a>
+						<strong><p>{{ blog.intro }}</p></strong>
+						{{ blog.content | truncate: 400 }}
+						<a href="{{site.baseurl}}{{blog.url}}">lees meer</a>
 					</div>
 				</div>
 			</div>

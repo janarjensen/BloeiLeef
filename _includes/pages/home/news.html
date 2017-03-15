@@ -25,16 +25,21 @@
         </div>
       </div>
 
-      <div id="card2" class="col-lg-4 col-sm-6 newsCard">
+      <div id="card1" class="col-lg-4 col-sm-6 newsCard">
         <div class="cardBorder">
-          <div class="imgCard">
+          <div id="blogImg" class="imgCard">
             <div class="cardTitle">
-              <h2>blogs</h2>
+              <h2><a href="{{ site.baseurl }}{{ url }}/blogs.html">blogs</a></h2>
             </div>
           </div>
           <div class="cardInfo">
-                <h3>Succesverhaal van Melinda</h3>
-                <h4>wie niet waagt, wie niet wint...</h4>
+                {% for blog in site.blogs %}
+                  <div class="newsBlog displayNot">
+                    <a href="{{site.baseurl}}{{ url }}{{blog.url}}"><h3>{{ blog.title }}</h3></a>
+                    <a href="{{site.baseurl}}{{ url }}{{blog.url}}"><h4>{{ blog.intro }}</h4></a>
+                    <p class="ImgUrl">{{ site.baseurl }}{{ url }}/img/blogs/{{ blog.imageName }}</p>
+                  </div>
+                {% endfor %}
           </div>
         </div>
       </div>

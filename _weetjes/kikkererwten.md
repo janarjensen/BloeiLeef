@@ -6,8 +6,7 @@ dateAdded: 15 NOV 2016
 intro: Klinkt gek, is super lekker!
 ---
 
-*Bij de naam 'kikkererwt', dan denken we niet gelijk, ooooh lekker!*
-Echt, het is heerlijk en nog gezond ook! Sterker nog, we eten het vaker dan we door hebben omdat het veel verwerkt wordt in soepen, salades en de wel bekende Humus en Falafel! Het is een heerlijke en supergezonde etenswaar dat valt in de categorie peulvruchten. En het is een super geschikte vleesvervanger voor de vega's onder ons.
+*Bij de naam 'kikkererwt', dan denken we niet gelijk, ooooh lekker!* Echt, het is heerlijk en nog gezond ook! Sterker nog, we eten het vaker dan we door hebben omdat het veel verwerkt wordt in soepen, salades en de wel bekende Humus en Falafel! Het is een heerlijke en supergezonde etenswaar dat valt in de categorie peulvruchten. En het is een super geschikte vleesvervanger voor de vega's onder ons.
 
 ###### Maar waarom geven kikkererwten onze gezondheid een kik?
 

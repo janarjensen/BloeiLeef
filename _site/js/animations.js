@@ -37,6 +37,12 @@ var ImgUrl = $(".newsWeetje > p").eq(randomWeetjeNr).text();
 $(".newsWeetje").eq(randomWeetjeNr).toggleClass("display displayNot");
 $("#weetjeImg").css("background-image", "url("+ ImgUrl +")");
 
+// -----------random diplay blog in news card 2
+var randomBlogNr = Math.floor(Math.random() * $(".newsBlog").length)
+var ImgUrl = $(".newsBlog > p").eq(randomBlogNr).text();
+$(".newsBlog").eq(randomBlogNr).toggleClass("display displayNot");
+$("#blogImg").css("background-image", "url("+ ImgUrl +")");
+
 // ----------set equal heights to all news in home (after news random display)
 $(function() {
     $('.receptCard').matchHeight();
