@@ -1,16 +1,18 @@
 ---
 layout: default
 ---
-<div class="container">
-  <div id="pageJumbotron"style="background-image: url({{site.baseurl}}/img/blogs/{{page.imageName}})" class="jumbotron">
-    <h1>{{page.title}}</h1>
+<section id="blogSection">
+  <div class="container">
+    <div id="pagetitleElement"style="background-image: url({{site.baseurl}}/img/blogs/{{page.imageName}})" class="titleElement">
+      <h1>{{page.title}}</h1>
+    </div>
+    <div class="contentTitleInfo">
+      <a id="backToPrevious" href="{{site.baseurl}}/blogs"><i class="fa fa-undo" aria-hidden="true"></i> BLOGS</a>
+      <p id="date">{{page.dateAdded}}</p>
+    </div>
+    <div class="contentContent">
+      <p><strong>{{ page.intro }}</strong></p>
+      {{ content }}
+    </div>
   </div>
-  <div class="receptTitleInfo">
-    <a id="backToRecepten" href="{{site.baseurl}}/recepten.html"><i class="fa fa-undo" aria-hidden="true"></i> BLOGS</a>
-    <p id="date">{{page.dateAdded}}</p>
-  </div>
-  <div class="receptContent">
-    <p><strong>{{ page.intro }}</strong></p>
-    {{ content }}
-  </div>
-</div>
+</section>

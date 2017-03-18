@@ -1,22 +1,21 @@
 #cardsSection
   .card
     height: 70vh
-    border: 10px solid white
-    border-radius: 20px
+    border-radius: $bl-border-radius
     background-position: center
     background-size: cover
-    margin: 0px
-    padding: 0px
+    padding: $bl-card-border-padding
     .fadeCard
       display: flex
       flex-direction: column
       width: 100%
       height: 100%
       background-color: rgba(255,255,255,0.0)
-      padding: 0 15px
+      border-radius: $bl-border-radius-medium
       h2
         color: white
         background-color: rgba( 0,0,0,0.5)
+        margin: 10px
         padding: 10px
         border-radius: $bl-border-radius-smal
       &:hover
@@ -33,12 +32,12 @@
         opacity: 0
 
   #card1
-    background-image: url("../img/cards/bloei-en-leef-maaike-en-alwin.jpg")
+    background-image: url($baseurl + "/img/cards/bloei-en-leef-maaike-en-alwin.jpg")
   #card2
-    background-image: url("../img/cards/bloei-en-leef-maaike-rug.jpg")
+    background-image: url($baseurl + "/img/cards/bloei-en-leef-maaike-rug.jpg")
   #card3
-    background-image: url("../img/cards/bloei-en-leef-maaike-druppel.jpg")
+    background-image: url($baseurl + "/img/cards/bloei-en-leef-maaike-druppel.jpg")
   #card4
-    background-image: url("../img/cards/bloei-en-leef-spinazie.jpg")
+    background-image: url($baseurl + "/img/cards/bloei-en-leef-spinazie.jpg")
   #card5
-    background-image: url("../img/cards/bloei-en-leef-maaike-plukken.jpg")
+    background-image: url($baseurl + "/img/cards/bloei-en-leef-maaike-plukken.jpg")

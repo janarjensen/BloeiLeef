@@ -50,7 +50,7 @@ $(function() {
 
 // toggle class of searchIcon
 $("#searchIcon").click(function(){
-  $(".receptenNav").toggleClass("height0 heightAuto");
+  $(".contentNav").toggleClass("height0 heightAuto");
 });
 
 // ----------set nr of persons for recipe

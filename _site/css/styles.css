@@ -42,8 +42,34 @@ a {
     color: #8A2BE2;
     text-decoration: none; }
 
+.gridSpace {
+  margin: 10px; }
+
 .lobster {
   font-family: "Lobster", cursive; }
+
+.titleElement {
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 25px 0px;
+  border-radius: 20px; }
+  .titleElement h2, .titleElement h1 {
+    align-self: center;
+    color: white;
+    text-shadow: 2px 2px 5px black, 2px -2px 5px black, -2px 2px 5px black, 0px 0px 15px black; }
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12 {
+  padding: 0px; }
+
+.col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5 {
+  padding: 0px; }
+
+.col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+  padding: 0px; }
 
 .statNavContainer {
   position: fixed;
@@ -289,22 +315,21 @@ footer {
 
 #cardsSection .card {
   height: 70vh;
-  border: 10px solid white;
   border-radius: 20px;
   background-position: center;
   background-size: cover;
-  margin: 0px;
-  padding: 0px; }
+  padding: 10px; }
   #cardsSection .card .fadeCard {
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 100%;
     background-color: rgba(255, 255, 255, 0);
-    padding: 0 15px; }
+    border-radius: 15px; }
     #cardsSection .card .fadeCard h2 {
       color: white;
       background-color: rgba(0, 0, 0, 0.5);
+      margin: 10px;
       padding: 10px;
       border-radius: 10px; }
     #cardsSection .card .fadeCard:hover {
@@ -319,128 +344,109 @@ footer {
       margin: auto 20px 0 20px;
       opacity: 0; }
 #cardsSection #card1 {
-  background-image: url("../img/cards/bloei-en-leef-maaike-en-alwin.jpg"); }
+  background-image: url(/BloeiLeef/img/cards/bloei-en-leef-maaike-en-alwin.jpg); }
 #cardsSection #card2 {
-  background-image: url("../img/cards/bloei-en-leef-maaike-rug.jpg"); }
+  background-image: url(/BloeiLeef/img/cards/bloei-en-leef-maaike-rug.jpg); }
 #cardsSection #card3 {
-  background-image: url("../img/cards/bloei-en-leef-maaike-druppel.jpg"); }
+  background-image: url(/BloeiLeef/img/cards/bloei-en-leef-maaike-druppel.jpg); }
 #cardsSection #card4 {
-  background-image: url("../img/cards/bloei-en-leef-spinazie.jpg"); }
+  background-image: url(/BloeiLeef/img/cards/bloei-en-leef-spinazie.jpg); }
 #cardsSection #card5 {
-  background-image: url("../img/cards/bloei-en-leef-maaike-plukken.jpg"); }
+  background-image: url(/BloeiLeef/img/cards/bloei-en-leef-maaike-plukken.jpg); }
 
 #newsSection #logoFlower .logo {
   margin: 0 auto;
   height: 20vh; }
 #newsSection .newsCard {
-  border: 10px solid white;
-  border-radius: 20px; }
-  #newsSection .newsCard .cardBorder {
-    background-color: #DCDCDC;
-    border-radius: 10px; }
-    #newsSection .newsCard .cardBorder .cardTitle h2 {
-      text-shadow: 2px 2px 5px white, 2px -2px 5px white, -2px 2px 5px white, 0px 0px 15px white; }
-      #newsSection .newsCard .cardBorder .cardTitle h2 a {
-        color: #444444; }
-        #newsSection .newsCard .cardBorder .cardTitle h2 a:hover {
-          color: #8A2BE2; }
-    #newsSection .newsCard .cardBorder .imgCard {
-      height: 30vh;
-      background-size: cover;
-      background-position: top;
-      clip-path: polygon(100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
-      border-radius: 10px;
-      padding: 20px; }
-    #newsSection .newsCard .cardBorder .cardInfo {
-      padding: 10px 20px; }
-      #newsSection .newsCard .cardBorder .cardInfo h3, #newsSection .newsCard .cardBorder .cardInfo h4 {
-        text-align: left; }
-        #newsSection .newsCard .cardBorder .cardInfo h3:hover, #newsSection .newsCard .cardBorder .cardInfo h4:hover {
-          color: #8A2BE2; }
-      #newsSection .newsCard .cardBorder .cardInfo .ImgUrl {
-        display: none; }
-#newsSection #card1 .displayNot {
+  border-radius: 20px;
+  background-color: #DCDCDC; }
+  #newsSection .newsCard .cardTitle h2 {
+    text-shadow: 2px 2px 5px white, 2px -2px 5px white, -2px 2px 5px white, 0px 0px 15px white; }
+    #newsSection .newsCard .cardTitle h2 a {
+      color: #444444; }
+      #newsSection .newsCard .cardTitle h2 a:hover {
+        color: #8A2BE2; }
+  #newsSection .newsCard .imgCard {
+    height: 30vh;
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+    border-radius: 20px;
+    padding: 20px; }
+  #newsSection .newsCard .cardInfo {
+    padding: 10px 20px; }
+    #newsSection .newsCard .cardInfo h3, #newsSection .newsCard .cardInfo h4 {
+      text-align: left; }
+      #newsSection .newsCard .cardInfo h3:hover, #newsSection .newsCard .cardInfo h4:hover {
+        color: #8A2BE2; }
+    #newsSection .newsCard .cardInfo .ImgUrl {
+      display: none; }
+#newsSection .newsCard .displayNot {
   display: none; }
-#newsSection #card1 .display {
+#newsSection .newsCard .display {
   display: relative; }
-#newsSection #card2 .imgCard {
-  background-image: url("../img/temp/bloei-en-leef-blog-melinda-1.jpg"); }
-#newsSection #card3 .imgCard {
-  background-image: url("../img/temp/bloei-en-leef-rozemarijn.jpg"); }
 
-.jumbotron {
-  background-position: center;
-  background-size: cover;
-  height: 50vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-top: 40px; }
-  .jumbotron h2, .jumbotron h1 {
-    align-self: center;
-    color: white;
-    text-shadow: 2px 2px 5px black, 2px -2px 5px black, -2px 2px 5px black, 0px 0px 15px black; }
-
-.receptenInfo {
+#receptenSection .receptenInfo, #weetjesSection .receptenInfo, #blogsSection .receptenInfo {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 100%; }
-  .receptenInfo #receptSuffice {
+  #receptenSection .receptenInfo #receptSuffice, #weetjesSection .receptenInfo #receptSuffice, #blogsSection .receptenInfo #receptSuffice {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap; }
-    .receptenInfo #receptSuffice .suffice {
+    #receptenSection .receptenInfo #receptSuffice .suffice, #weetjesSection .receptenInfo #receptSuffice .suffice, #blogsSection .receptenInfo #receptSuffice .suffice {
       margin-right: 20px; }
-  .receptenInfo #searchIcon {
+  #receptenSection .receptenInfo #searchIcon, #weetjesSection .receptenInfo #searchIcon, #blogsSection .receptenInfo #searchIcon {
     align-self: flex-end;
-    margin-left: auto; }
-    .receptenInfo #searchIcon:hover {
+    margin-left: auto;
+    margin-bottom: auto; }
+    #receptenSection .receptenInfo #searchIcon:hover, #weetjesSection .receptenInfo #searchIcon:hover, #blogsSection .receptenInfo #searchIcon:hover {
       cursor: pointer; }
-
-.receptenNav {
+#receptenSection .contentNav, #weetjesSection .contentNav, #blogsSection .contentNav {
   display: flex;
-  flex-direction: column; }
-
-.height0 {
+  flex-direction: column;
+  overflow: hidden; }
+#receptenSection .height0, #weetjesSection .height0, #blogsSection .height0 {
   height: 0; }
-
-.heightAuto {
+#receptenSection .heightAuto, #weetjesSection .heightAuto, #blogsSection .heightAuto {
   height: auto; }
-
-.receptCard {
+#receptenSection .receptCard, #weetjesSection .receptCard, #blogsSection .receptCard {
   background-position: center;
   background-size: cover;
-  border: 10px solid white;
+  padding: 10px;
   border-radius: 20px; }
-  .receptCard h2 {
+  #receptenSection .receptCard h2, #weetjesSection .receptCard h2, #blogsSection .receptCard h2 {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
     border-radius: 10px;
-    word-wrap: break-word; }
-    .receptCard h2 a {
+    word-wrap: break-word;
+    margin: 10px; }
+    #receptenSection .receptCard h2 a, #weetjesSection .receptCard h2 a, #blogsSection .receptCard h2 a {
       color: white; }
-      .receptCard h2 a:hover {
+      #receptenSection .receptCard h2 a:hover, #weetjesSection .receptCard h2 a:hover, #blogsSection .receptCard h2 a:hover {
         color: #008d90; }
-  .receptCard .receptInfoCard .receptInfo {
-    color: white;
-    text-shadow: 2px 2px 5px black, 2px -2px 5px black, -2px 2px 5px black, 0px 0px 15px black;
-    padding: 10px; }
-  .receptCard .receptInfoCard .receptIntro {
-    padding: 10px;
-    border-radius: 10px;
-    margin-bottom: 10px;
-    opacity: 0; }
-  .receptCard .receptInfoCard:hover {
-    background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 10px; }
-  .receptCard .receptInfoCard:hover .receptIntro {
+  #receptenSection .receptCard .receptInfoCard, #weetjesSection .receptCard .receptInfoCard, #blogsSection .receptCard .receptInfoCard {
+    margin: 0 10px; }
+    #receptenSection .receptCard .receptInfoCard .receptInfo, #weetjesSection .receptCard .receptInfoCard .receptInfo, #blogsSection .receptCard .receptInfoCard .receptInfo {
+      color: white;
+      text-shadow: 2px 2px 5px black, 2px -2px 5px black, -2px 2px 5px black, 0px 0px 15px black;
+      padding: 10px; }
+    #receptenSection .receptCard .receptInfoCard .receptIntro, #weetjesSection .receptCard .receptInfoCard .receptIntro, #blogsSection .receptCard .receptInfoCard .receptIntro {
+      padding: 10px;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      opacity: 0; }
+    #receptenSection .receptCard .receptInfoCard:hover, #weetjesSection .receptCard .receptInfoCard:hover, #blogsSection .receptCard .receptInfoCard:hover {
+      background-color: rgba(255, 255, 255, 0.9);
+      border-radius: 10px; }
+  #receptenSection .receptCard .receptInfoCard:hover .receptIntro, #weetjesSection .receptCard .receptInfoCard:hover .receptIntro, #blogsSection .receptCard .receptInfoCard:hover .receptIntro {
     opacity: 1; }
-  .receptCard .receptInfoCard:hover .receptInfo {
+  #receptenSection .receptCard .receptInfoCard:hover .receptInfo, #weetjesSection .receptCard .receptInfoCard:hover .receptInfo, #blogsSection .receptCard .receptInfoCard:hover .receptInfo {
     color: #444444;
     text-shadow: none; }
 
-.receptTitleInfo {
+#receptSection .contentTitleInfo, #weetjeSection .contentTitleInfo, #blogSection .contentTitleInfo {
   text-shadow: 0px 4px 3px black;
   margin-top: -65px;
   display: inline-flex;
@@ -448,51 +454,50 @@ footer {
   justify-content: space-between;
   width: 100%;
   padding: 0 20px 0 14px; }
-  .receptTitleInfo #backToRecepten {
+  #receptSection .contentTitleInfo #backToPrevious, #weetjeSection .contentTitleInfo #backToPrevious, #blogSection .contentTitleInfo #backToPrevious {
     color: white;
     align-self: baseline; }
-    .receptTitleInfo #backToRecepten:hover {
+    #receptSection .contentTitleInfo #backToPrevious:hover, #weetjeSection .contentTitleInfo #backToPrevious:hover, #blogSection .contentTitleInfo #backToPrevious:hover {
       color: #8A2BE2; }
-  .receptTitleInfo #date {
+  #receptSection .contentTitleInfo #date, #weetjeSection .contentTitleInfo #date, #blogSection .contentTitleInfo #date {
     color: white;
     align-self: baseline; }
-
-.receptContent label {
+#receptSection .contentContent label, #weetjeSection .contentContent label, #blogSection .contentContent label {
   width: 100%; }
-  .receptContent label .inputBar {
+  #receptSection .contentContent label .inputBar, #weetjeSection .contentContent label .inputBar, #blogSection .contentContent label .inputBar {
     display: flex;
     flex-direction: row;
     margin: 20px; }
-    .receptContent label .inputBar input {
+    #receptSection .contentContent label .inputBar input, #weetjeSection .contentContent label .inputBar input, #blogSection .contentContent label .inputBar input {
       margin: 0 20px; }
-.receptContent ul {
-  list-style-image: url("../favicon.ico");
+#receptSection .contentContent ul, #weetjeSection .contentContent ul, #blogSection .contentContent ul {
+  list-style-image: url(/BloeiLeef/favicon.ico);
   font-size: 1.3em;
   line-height: 20px; }
-.receptContent .completed {
+#receptSection .contentContent .completed, #weetjeSection .contentContent .completed, #blogSection .contentContent .completed {
   color: gray;
   text-decoration: line-through; }
-.receptContent ul:hover {
+#receptSection .contentContent ul:hover, #weetjeSection .contentContent ul:hover, #blogSection .contentContent ul:hover {
   cursor: pointer;
   cursor: hand; }
-.receptContent #date {
+#receptSection .contentContent #date, #weetjeSection .contentContent #date, #blogSection .contentContent #date {
   text-align: right; }
-.receptContent a {
+#receptSection .contentContent a, #weetjeSection .contentContent a, #blogSection .contentContent a {
   text-decoration: underline; }
-.receptContent input[type=range] {
+#receptSection .contentContent input[type=range], #weetjeSection .contentContent input[type=range], #blogSection .contentContent input[type=range] {
   -webkit-appearance: none;
   width: 100%;
   margin: 7.3px 0; }
-.receptContent input[type=range]:focus {
+#receptSection .contentContent input[type=range]:focus, #weetjeSection .contentContent input[type=range]:focus, #blogSection .contentContent input[type=range]:focus {
   outline: none; }
-.receptContent input[type=range]::-webkit-slider-runnable-track {
+#receptSection .contentContent input[type=range]::-webkit-slider-runnable-track, #weetjeSection .contentContent input[type=range]::-webkit-slider-runnable-track, #blogSection .contentContent input[type=range]::-webkit-slider-runnable-track {
   width: 100%;
   height: 11.4px;
   cursor: pointer;
   box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);
   background: #008d90;
   border-radius: 10px; }
-.receptContent input[type=range]::-webkit-slider-thumb {
+#receptSection .contentContent input[type=range]::-webkit-slider-thumb, #weetjeSection .contentContent input[type=range]::-webkit-slider-thumb, #blogSection .contentContent input[type=range]::-webkit-slider-thumb {
   box-shadow: 0.9px 0.9px 1px #000031, 0px 0px 0.9px #00004b;
   border: 1.8px solid rgba(0, 0, 30, 0);
   height: 26px;
@@ -502,16 +507,16 @@ footer {
   cursor: pointer;
   -webkit-appearance: none;
   margin-top: -7.3px; }
-.receptContent input[type=range]:focus::-webkit-slider-runnable-track {
+#receptSection .contentContent input[type=range]:focus::-webkit-slider-runnable-track, #weetjeSection .contentContent input[type=range]:focus::-webkit-slider-runnable-track, #blogSection .contentContent input[type=range]:focus::-webkit-slider-runnable-track {
   background: #444444; }
-.receptContent input[type=range]::-moz-range-track {
+#receptSection .contentContent input[type=range]::-moz-range-track, #weetjeSection .contentContent input[type=range]::-moz-range-track, #blogSection .contentContent input[type=range]::-moz-range-track {
   width: 100%;
   height: 11.4px;
   cursor: pointer;
   box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);
   background: #008d90;
   border-radius: 10px; }
-.receptContent input[type=range]::-moz-range-thumb {
+#receptSection .contentContent input[type=range]::-moz-range-thumb, #weetjeSection .contentContent input[type=range]::-moz-range-thumb, #blogSection .contentContent input[type=range]::-moz-range-thumb {
   box-shadow: 0.9px 0.9px 1px #000031, 0px 0px 0.9px #00004b;
   border: 1.8px solid rgba(0, 0, 30, 0);
   height: 26px;
@@ -519,16 +524,16 @@ footer {
   border-radius: 15px;
   background: #8A2BE2;
   cursor: pointer; }
-.receptContent input[type=range]::-ms-track {
+#receptSection .contentContent input[type=range]::-ms-track, #weetjeSection .contentContent input[type=range]::-ms-track, #blogSection .contentContent input[type=range]::-ms-track {
   width: 100%;
   height: 11.4px;
   cursor: pointer; }
-.receptContent input[type=range]::-ms-fill-lower {
+#receptSection .contentContent input[type=range]::-ms-fill-lower, #weetjeSection .contentContent input[type=range]::-ms-fill-lower, #blogSection .contentContent input[type=range]::-ms-fill-lower {
   border-radius: 20px; }
-.receptContent input[type=range]::-ms-fill-upper {
+#receptSection .contentContent input[type=range]::-ms-fill-upper, #weetjeSection .contentContent input[type=range]::-ms-fill-upper, #blogSection .contentContent input[type=range]::-ms-fill-upper {
   background: #008d90;
   border-radius: 20px; }
-.receptContent input[type=range]::-ms-thumb {
+#receptSection .contentContent input[type=range]::-ms-thumb, #weetjeSection .contentContent input[type=range]::-ms-thumb, #blogSection .contentContent input[type=range]::-ms-thumb {
   box-shadow: 0.9px 0.9px 1px #000031, 0px 0px 0.9px #00004b;
   height: 26px;
   width: 26px;
@@ -536,7 +541,7 @@ footer {
   background: #8A2BE2;
   cursor: pointer;
   height: 11.4px; }
-.receptContent input[type=range]:focus::-ms-fill-lower {
+#receptSection .contentContent input[type=range]:focus::-ms-fill-lower, #weetjeSection .contentContent input[type=range]:focus::-ms-fill-lower, #blogSection .contentContent input[type=range]:focus::-ms-fill-lower {
   background: #008d90; }
-.receptContent input[type=range]:focus::-ms-fill-upper {
+#receptSection .contentContent input[type=range]:focus::-ms-fill-upper, #weetjeSection .contentContent input[type=range]:focus::-ms-fill-upper, #blogSection .contentContent input[type=range]:focus::-ms-fill-upper {
   background: #444444; }

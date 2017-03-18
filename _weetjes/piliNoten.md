@@ -32,4 +32,4 @@ Wij hebben ze voor je getest! In onze beleving zijn het net mega grote beukennot
 
 ##### ​'Verwen je blij en pak er een Pili noot bij!'
 
-[herfst salade]: {{ site.baseurl }}{{ url }}/recepten/herfstSalade.html
+[herfst salade]: {{ site.baseurl }}/recepten/herfstSalade

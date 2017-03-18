@@ -6,57 +6,57 @@
         <div class="logo">{% include logos/leaf-Bloei-en-Leef.svg %}</div>
       </div>
 
-      <div id="card1" class="col-lg-4 col-sm-6 newsCard">
-        <div class="cardBorder">
+      <div class="col-lg-4 col-sm-6">
+        <div class="gridSpace newsCard">
           <div id="receptImg" class="imgCard">
             <div class="cardTitle">
-              <h2><a href="{{ site.baseurl }}{{ url }}/recepten.html">recepten</a></h2>
+              <h2><a href="{{ site.baseurl }}/recepten">recepten</a></h2>
             </div>
           </div>
           <div class="cardInfo">
                 {% for recept in site.recepten %}
                   <div class="newsRecept displayNot">
-                    <a href="{{site.baseurl}}{{ url }}{{recept.url}}"><h3>{{ recept.title }}</h3></a>
-                    <a href="{{site.baseurl}}{{ url }}{{recept.url}}"><h4>{{ recept.intro }}</h4></a>
-                    <p class="ImgUrl">{{ site.baseurl }}{{ url }}/img/recepten/{{ recept.imageName }}</p>
+                    <a href="{{site.baseurl}}{{recept.url}}"><h3>{{ recept.title }}</h3></a>
+                    <a href="{{site.baseurl}}{{recept.url}}"><h4>{{ recept.intro }}</h4></a>
+                    <p class="ImgUrl">{{ site.baseurl }}/img/recepten/{{ recept.imageName }}</p>
                   </div>
                 {% endfor %}
           </div>
         </div>
       </div>
 
-      <div id="card1" class="col-lg-4 col-sm-6 newsCard">
-        <div class="cardBorder">
+      <div class="col-lg-4 col-sm-6">
+        <div class="gridSpace newsCard">
           <div id="blogImg" class="imgCard">
             <div class="cardTitle">
-              <h2><a href="{{ site.baseurl }}{{ url }}/blogs.html">blogs</a></h2>
+              <h2><a href="{{ site.baseurl }}/blogs">blogs</a></h2>
             </div>
           </div>
           <div class="cardInfo">
                 {% for blog in site.blogs %}
                   <div class="newsBlog displayNot">
-                    <a href="{{site.baseurl}}{{ url }}{{blog.url}}"><h3>{{ blog.title }}</h3></a>
-                    <a href="{{site.baseurl}}{{ url }}{{blog.url}}"><h4>{{ blog.intro }}</h4></a>
-                    <p class="ImgUrl">{{ site.baseurl }}{{ url }}/img/blogs/{{ blog.imageName }}</p>
+                    <a href="{{site.baseurl}}{{blog.url}}"><h3>{{ blog.title }}</h3></a>
+                    <a href="{{site.baseurl}}{{blog.url}}"><h4>{{ blog.intro }}</h4></a>
+                    <p class="ImgUrl">{{ site.baseurl }}/img/blogs/{{ blog.imageName }}</p>
                   </div>
                 {% endfor %}
           </div>
         </div>
       </div>
 
-      <div id="card1" class="col-lg-4 col-sm-12 newsCard">
-        <div class="cardBorder">
+      <div class="col-lg-4 col-sm-12">
+        <div class="gridSpace newsCard">
           <div id="weetjeImg" class="imgCard">
             <div class="cardTitle">
-              <h2><a href="{{ site.baseurl }}{{ url }}/weetjes.html">weetjes</a></h2>
+              <h2><a href="{{ site.baseurl }}/weetjes">weetjes</a></h2>
             </div>
           </div>
           <div class="cardInfo">
                 {% for weetje in site.weetjes %}
                   <div class="newsWeetje displayNot">
-                    <a href="{{site.baseurl}}{{ url }}{{weetje.url}}"><h3>{{ weetje.title }}</h3></a>
-                    <a href="{{site.baseurl}}{{ url }}{{weetje.url}}"><h4>{{ weetje.intro }}</h4></a>
-                    <p class="ImgUrl">{{ site.baseurl }}{{ url }}/img/weetjes/{{ weetje.imageName }}</p>
+                    <a href="{{site.baseurl}}{{weetje.url}}"><h3>{{ weetje.title }}</h3></a>
+                    <a href="{{site.baseurl}}{{weetje.url}}"><h4>{{ weetje.intro }}</h4></a>
+                    <p class="ImgUrl">{{ site.baseurl }}/img/weetjes/{{ weetje.imageName }}</p>
                   </div>
                 {% endfor %}
           </div>

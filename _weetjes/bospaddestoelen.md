@@ -24,4 +24,4 @@ En wist je dat paddestoelen ouder zijn dan de mens? Evenals de dieren, hebben wi
 ##### Tip!
 Duik lekker je keuken in en maak je eigen bospaddestoelen [herfstsalade], mmm jammie!
 
-[herfstsalade]: {{ site.baseurl }}{{ url }}/recepten/herfstSalade.html
+[herfstsalade]: {{ site.baseurl }}/recepten/herfstSalade

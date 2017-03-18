@@ -24,4 +24,4 @@ Blije groet,
 
 Sabine
 
-[Smeerwortel Zalf]: {{ site.baseurl }}{{ url }}/producten.html
+[Smeerwortel Zalf]: {{ site.baseurl }}/producten

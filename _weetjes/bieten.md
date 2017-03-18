@@ -28,6 +28,6 @@ Bijna iedereen weet inmiddels dat het prachtvoer is met een super hoog detox geh
 * Bieten roosteren en verwerken in ovenschotels met bataat, wortel, paprika, courgette, aubergine en pastinaak is ook werkelijk verrukkelijk!
 * Bietensalades met een dressing van mosterd met verse pepers is natuurlijk ook super lekker.
 * Lekker roerbakken met andere groenten, tja combineren dus én de grondsmaak is gelijk verdwenen plus je creëert daarmee gelijk je eigen unieke groentemix.
-* Of onze topper, een overheerlijke [bieten carpaccio!][1] Daarom speciaal voor jou ons recept! Laat je inspireren en verwen je blij!
+* Of onze topper, een overheerlijke [bieten carpaccio!] Daarom speciaal voor jou ons recept! Laat je inspireren en verwen je blij!
 
-[1]: {{ site.baseurl }}{{ url }}/recepten/bieten-carpaccio.html
+[bieten carpaccio!]: {{ site.baseurl }}/recepten/bieten-carpaccio

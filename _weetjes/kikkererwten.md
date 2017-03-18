@@ -18,4 +18,4 @@ intro: Klinkt gek, is super lekker!
 
 **Het lijkt niet op te houden met 'weetjes' over de Kikkererwt! Het vraagt naar meer, daarom voor jou ons [Humus] recept, waar je lekker mee verder kunt in eigen keuken!**
 
-[Humus]: {{ site.baseurl }}{{ url }}/recepten/humus.html
+[Humus]: {{ site.baseurl }}/recepten/humus
