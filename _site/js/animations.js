@@ -22,7 +22,7 @@ $("#circle3").on("click", function(){
 
 // ----------set equal heights to all cards in Home
 $(function() {
-    $('.cardBorder').matchHeight();
+    $('.newsCard').matchHeight();
 });
 
 // -----------random diplay recept in news card 1

@@ -17,13 +17,15 @@ title: blogs
 		</div>
 		<div class="row">
 			{% for blog in site.blogs %}
-				<div style="background-image: url({{ site.baseurl}}/img/blogs/{{blog.imageName }})" class="col-lg-6 col-sm-6 receptCard">
-					<h2><a href="{{ site.baseurl }}{{ blog.url }}">{{ blog.title }}</a></h2>
-					<div onclick="" class="receptInfoCard">
-						<div class="receptIntro">
-							<strong><p>{{ blog.intro }}</p></strong>
-							{{ blog.content | truncate: 400 }}
-							<a href="{{site.baseurl}}{{blog.url}}">lees meer</a>
+				<div class="col-lg-6 col-sm-6">
+					<div style="background-image: url({{ site.baseurl}}/img/blogs/{{blog.imageName }})" class="gridSpace receptCard blogCard">
+						<h2><a href="{{ site.baseurl }}{{ blog.url }}">{{ blog.title }}</a></h2>
+						<div onclick="" class="receptInfoCard">
+							<div class="receptIntro">
+								<strong><p>{{ blog.intro }}</p></strong>
+								{{ blog.content | truncate: 400 }}
+								<a href="{{site.baseurl}}{{blog.url}}">lees meer</a>
+							</div>
 						</div>
 					</div>
 				</div>
