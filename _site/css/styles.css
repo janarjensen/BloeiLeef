@@ -563,7 +563,16 @@ footer {
   height: 60vh;
   width: 60vh;
   border-radius: 100%;
-  margin: 10vh auto; }
+  margin: -32.5vh auto 0 auto; }
+.generalPageSection .grayLine {
+  height: 3vh;
+  background: #3494E6;
+  background: -webkit-linear-gradient(to left, white, #008d90, #8A2BE2, #008d90, white);
+  background: linear-gradient(to left, white, #008d90, #8A2BE2, #008d90, white);
+  margin-top: 35vh;
+  width: 95vw;
+  margin-left: auto;
+  margin-right: auto; }
 .generalPageSection img {
   display: inline;
   width: 500px;
