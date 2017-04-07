@@ -104,6 +104,7 @@ ul {
     position: fixed;
     top: 25px; }
     .statNavContainer #statNav nav {
+      display: inline;
       justify-content: flex-start; }
       .statNavContainer #statNav nav a {
         margin: 0px 10px; }
@@ -111,7 +112,7 @@ ul {
     left: 70px;
     opacity: 1; }
   .statNavContainer .unClicked {
-    left: -1000px;
+    left: -2000px;
     opacity: 0; }
 
 footer {
