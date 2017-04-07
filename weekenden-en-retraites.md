@@ -1,6 +1,6 @@
 ---
 layout: generalPage
-title: Foodsafari
+title: Weekenden & Retraites
 imageName: bloei-en-leef-maaike-rug.jpg
 dateAdded: 30 JAN 2017
 ---
@@ -35,7 +35,7 @@ Ik huur hiervoor een fantastisch tal pracht specialisten in waarmee er keer op k
 * De weekenden en retraites beginnen altijd op een vrijdag om 19:00 uur en eindigen zondag om 16:00 uur.
 * Deze dagen worden al jouw lichamelijke processen geactiveerd, gevitaliseerd, met liefde verzorgd en in de watten gelegd. Afhankelijk van het weekend of de retraite die jij kiest ga je onder begeleiding met jezelf aan de slag. Inspirerend en met aandacht, zodat je er daarna voor de rest van je leven op eigen wijze mee verder kunt. Dit met de waardevolle ondersteuning met oog op een goede nazorg middels het bijbehorende E-book.
 * Zowel de inhoud van het weekend, de specialisten, coaches en masseuses, als de locatie met haar prachtige omgeving (locatie Meeuwenveen in Havelte, gebouw c), zijn hartverwennend.
-* Nieuwsgierig naar meer? Vraag gerust naar de informatiebrochure. 
+* Nieuwsgierig naar meer? Vraag gerust naar de informatiebrochure.
 
 **Wens jezelf al jouw hartenwensen mét die van ons voor jou erbij!**
 

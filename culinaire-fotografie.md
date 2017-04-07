@@ -1,6 +1,6 @@
 ---
 layout: generalPage
-title: Foodsafari
+title: Culinaire Fotografie
 imageName: Jeugdfoto-Alwin-camera.jpg
 dateAdded: 30 JAN 2017
 ---
