@@ -60,7 +60,7 @@ Natuurlijk kunnen we je er nog veel meer over vertellen, maar dan hoef je deze u
 
 **Gezonde groet voor jou van Eko Plaza, Holland & Barrett en natuurlijk Bloei en Leef!**
 
-[Flyer1]: {{ site.baseurl }}/img/generalPages/flyerOptimaalGezond.jpg
-[Flyer2]: {{ site.baseurl }}/img/generalPages/flyerHollandEnBarrett.jpg
+[Flyer1]: {{site.baseurl}}/img/generalPages/flyerOptimaalGezond.jpg
+[Flyer2]: {{site.baseurl}}/img/generalPages/flyerHollandEnBarrett.jpg
 [Holland & Barrett]: https://www.hollandandbarrett.nl/stores/storeLocator.jsp?gclid=CKf_nOf8-NACFVQ_Gwodp9AP4Q
 [Eko Plaza]: https://www.ekoplaza.nl/vestigingen/meppel/
