@@ -168,6 +168,9 @@ footer {
       footer #footerNav #nav2 a:nth-child(9) {
         font-size: 1.3em; }
   footer #socialMedia {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
     background: #3494E6;
     background: -webkit-linear-gradient(to left, #8A2BE2, #008d90);
     background: linear-gradient(to left, #8A2BE2, #008d90);
@@ -186,6 +189,7 @@ footer {
       justify-content: space-around;
       width: 100%; }
       footer #socialMedia .socialMediaContainer i {
+        color: white;
         margin: 3%;
         font-size: 4em; }
         footer #socialMedia .socialMediaContainer i:hover {
