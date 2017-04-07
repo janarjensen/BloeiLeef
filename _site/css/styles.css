@@ -42,6 +42,15 @@ a {
     color: #8A2BE2;
     text-decoration: none; }
 
+a h2:hover, a h4:hover {
+  color: #8A2BE2;
+  text-decoration: none; }
+
+ul {
+  list-style-image: url(/BloeiLeef/favicon.ico);
+  font-size: 1.3em;
+  line-height: 20px; }
+
 .gridSpace {
   margin: 10px; }
 
@@ -470,10 +479,6 @@ footer {
     margin: 20px; }
     #receptSection .contentContent label .inputBar input, #weetjeSection .contentContent label .inputBar input, #blogSection .contentContent label .inputBar input {
       margin: 0 20px; }
-#receptSection .contentContent ul, #weetjeSection .contentContent ul, #blogSection .contentContent ul {
-  list-style-image: url(/BloeiLeef/favicon.ico);
-  font-size: 1.3em;
-  line-height: 20px; }
 #receptSection .contentContent .completed, #weetjeSection .contentContent .completed, #blogSection .contentContent .completed {
   color: gray;
   text-decoration: line-through; }
@@ -545,3 +550,18 @@ footer {
   background: #008d90; }
 #receptSection .contentContent input[type=range]:focus::-ms-fill-upper, #weetjeSection .contentContent input[type=range]:focus::-ms-fill-upper, #blogSection .contentContent input[type=range]:focus::-ms-fill-upper {
   background: #444444; }
+
+.generalPageSection .titlePicture {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60vh;
+  width: 60vh;
+  border-radius: 100%;
+  margin: 10vh auto; }
+.generalPageSection img {
+  display: inline;
+  width: 500px;
+  max-width: 90vw;
+  margin: 0 auto;
+  border-radius: 20px; }
