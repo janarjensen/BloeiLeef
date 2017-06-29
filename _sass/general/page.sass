@@ -24,7 +24,7 @@ h6
   margin-top: 50px
 
 
-p, a
+p, a, li
   font-size: 1.3em
 
 #bl-logo-svg
@@ -47,11 +47,15 @@ a
     &:hover
       color: $bl-hover-color
       text-decoration: none
-
 ul
-  list-style-image: url($baseurl + "/favicon.ico")
-  font-size: 1.3em
-  line-height: 20px
+  list-style: none
+  line-height: 50px
+  margin: 0px
+  padding: 0px
+  li
+    line-height: 50px
+    background: url("../favicon.ico") 0 8px no-repeat
+    padding: 0px 0px 0px 50px
 
 .gridSpace
   margin: 10px
