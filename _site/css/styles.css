@@ -668,7 +668,8 @@ footer {
     margin: 10px 0;
     color: #008d90;
     height: 2.5em;
-    border-radius: 10px; }
+    border-radius: 10px;
+    -webkit-appearance: none; }
     .tipue_search_right textarea:focus, .tipue_search_right input:focus {
       background-color: white;
       border: 2px solid #008d90;
