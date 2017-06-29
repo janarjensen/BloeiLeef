@@ -16,3 +16,8 @@ collections:
 
   blogs:
     output: true
+
+tipue_search:
+  include:
+    pages: true
+    collections: [recepten, weetjes, blogs]

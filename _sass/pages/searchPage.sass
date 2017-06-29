@@ -1,3 +1,24 @@
+// %searchBarLayout
+.tipue_search_right
+  display: flex
+  flex-direction: row
+  justify-content: flex-end
+  textarea, input
+    width: 100%
+    padding-left: 20px
+    box-sizing: border-box
+    border: 2px solid $bl-news-gray
+    background-color: $bl-news-gray
+    margin: 10px 0
+    color: $bl-green
+    height: 2.5em
+    border-radius: $bl-border-radius-small
+    &:focus
+      background-color: white
+      border: 2px solid $bl-green
+      outline: 0
+      color: $bl-text-color
+
 #searchSection
   .pageTitleElement
     background-position: top
@@ -34,6 +55,7 @@
       font-size: 2em
       font-weight: bold
       color: $bl-green
+      text-decoration: underline
       &:hover
         color: $bl-hover-color
 
@@ -47,7 +69,6 @@
   .tipue_search_content_text
     font-size: 1.3em
     color: $bl-text-color
-    background-color: $bl-green
     margin-bottom: 4vmin
 
   .tipue_search_content_bold

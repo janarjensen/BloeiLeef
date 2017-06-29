@@ -1,6 +1,7 @@
 ---
 layout: default
 title: recepten
+exclude_from_search: true
 ---
 <section id="receptenSection">
 	<div class="container">
@@ -18,6 +19,7 @@ title: recepten
 			<p id="searchIcon" onclick=""><i class="fa fa-search" aria-hidden="true"></i></p>
 		</div>
 		<div class="contentNav height0">
+			{% include general/searchForm.html %}
 			{% for recept in site.recepten %}
 				<a href="{{site.baseurl}}{{recept.url}}">{{ recept.title }}
 					{% if recept.vegetarian %}

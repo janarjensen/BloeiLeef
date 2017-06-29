@@ -618,7 +618,8 @@ footer {
     border: 2px solid #008d90;
     background-color: #008d90;
     margin: 10px 0;
-    color: white; }
+    color: white;
+    border-radius: 10px; }
   #contactForm .contactFormCard textarea {
     height: 160px;
     padding: 9px 10px;
@@ -654,6 +655,26 @@ footer {
     border: 2px solid #008d90;
     color: white; }
 
+.tipue_search_right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end; }
+  .tipue_search_right textarea, .tipue_search_right input {
+    width: 100%;
+    padding-left: 20px;
+    box-sizing: border-box;
+    border: 2px solid #DCDCDC;
+    background-color: #DCDCDC;
+    margin: 10px 0;
+    color: #008d90;
+    height: 2.5em;
+    border-radius: 10px; }
+    .tipue_search_right textarea:focus, .tipue_search_right input:focus {
+      background-color: white;
+      border: 2px solid #008d90;
+      outline: 0;
+      color: #444444; }
+
 #searchSection {
   @searchBarLayout; }
   #searchSection .pageTitleElement {
@@ -683,7 +704,8 @@ footer {
   #searchSection .tipue_search_content_title a {
     font-size: 2em;
     font-weight: bold;
-    color: #008d90; }
+    color: #008d90;
+    text-decoration: underline; }
     #searchSection .tipue_search_content_title a:hover {
       color: #8A2BE2; }
   #searchSection .tipue_search_content_url a {
@@ -694,7 +716,6 @@ footer {
   #searchSection .tipue_search_content_text {
     font-size: 1.3em;
     color: #444444;
-    background-color: #008d90;
     margin-bottom: 4vmin; }
   #searchSection .tipue_search_content_bold {
     font-weight: bold;

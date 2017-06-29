@@ -110,7 +110,7 @@
 
       </span>
       <form action="/search">
-  <div class="tipue_search_right"><input type="text" name="q" id="tipue_search_input" placeholder="Zoek hier op ingrediënten" pattern=".{3,}" title="Minstens 3 karakters" required><h5><i onclick="" id="searchBtn" class="fa fa-search" aria-hidden="true"></i></h5></div>
+  <div class="tipue_search_right"><input type="text" name="q" id="tipue_search_input" placeholder="Zoek hier, bv op ingrediënten" pattern=".{3,}" title="Minstens 3 karakters" required></div>
   <div style="clear: both;"></div>
 </form>
 
@@ -119,16 +119,16 @@
 </div>
 
 
-<section id="searchSection">
+<section class="generalPageSection">
+  <div class="grayLine"></div>
+  <div class="titlePicture" style="background-image: url(/img/generalPages/bloei-en-leef-header-img-3.jpg)"></div>
   <div class="container">
-    <div style="background-image: url(/img/backgrounds/bloei-en-leef-header-img-3.jpg)" class="pageTitleElement">
-      <h1><i class="fa fa-search" aria-hidden="true"></i><i class="fa fa-search" aria-hidden="true"></i><i class="fa fa-search" aria-hidden="true"></i></h1>
-    </div>
-    <div class="contentTitleInfo">
-      <!-- <a id="backToPrevious" href="/index"><i class="fa fa-undo" aria-hidden="true"></i> Mizzi</a> -->
-    </div>
+    <h1>Zoek resultaten</h1>
+    <p></p>
+    <section id="searchSection">
+  <div class="container">
     <form action="/search">
-  <div class="tipue_search_right"><input type="text" name="q" id="tipue_search_input" placeholder="Zoek hier op ingrediënten" pattern=".{3,}" title="Minstens 3 karakters" required><h5><i onclick="" id="searchBtn" class="fa fa-search" aria-hidden="true"></i></h5></div>
+  <div class="tipue_search_right"><input type="text" name="q" id="tipue_search_input" placeholder="Zoek hier, bv op ingrediënten" pattern=".{3,}" title="Minstens 3 karakters" required></div>
   <div style="clear: both;"></div>
 </form>
 
@@ -141,6 +141,9 @@ $(document).ready(function() {
   $('#tipue_search_input').tipuesearch();
 });
 </script>
+
+  </div>
+</section>
 
 
 <footer>
@@ -227,5 +230,4 @@ $(document).ready(function() {
 <!-- pulling in AJ animations -->
 <script type="text/javascript" src="/js/animations.js"></script>
 <script type="text/javascript" src="/js/iOSWebAppNav.js"></script>
-<!-- <script type="text/javascript" src="/js/receptAnimations.js"></script> -->
 
