@@ -3,14 +3,14 @@
     <div class="row">
       <div class="col-lg-4 col-sm-6">
         <div class="gridSpace newsCard">
-          <div id="receptImg" class="imgCard">
+          <div id="receptImg" class="imgCard" onclick="location.href='{{ site.baseurl }}/recepten';" style="cursor: pointer;">
             <div class="cardTitle">
               <h2><a href="{{ site.baseurl }}/recepten">recepten</a></h2>
             </div>
           </div>
           <div class="cardInfo">
                 {% for recept in site.recepten %}
-                  <div class="newsRecept displayNot">
+                  <div class="newsRecept displayNot" onclick="location.href='{{site.baseurl}}{{recept.url}}';" style="cursor: pointer;">
                     <a href="{{site.baseurl}}{{recept.url}}"><h3>{{ recept.title }}</h3></a>
                     <a href="{{site.baseurl}}{{recept.url}}"><h4>{{ recept.intro }}</h4></a>
                     <p class="ImgUrl">{{ site.baseurl }}/img/recepten/{{ recept.imageName }}</p>
@@ -22,14 +22,14 @@
 
       <div class="col-lg-4 col-sm-6">
         <div class="gridSpace newsCard">
-          <div id="blogImg" class="imgCard">
+          <div id="blogImg" class="imgCard" onclick="location.href='{{ site.baseurl }}/blogs';" style="cursor: pointer;">
             <div class="cardTitle">
               <h2><a href="{{ site.baseurl }}/blogs">blogs</a></h2>
             </div>
           </div>
           <div class="cardInfo">
                 {% for blog in site.blogs %}
-                  <div class="newsBlog displayNot">
+                  <div class="newsBlog displayNot" onclick="location.href='{{ site.baseurl }}{{ blog.url }}';" style="cursor: pointer;">
                     <a href="{{site.baseurl}}{{blog.url}}"><h3>{{ blog.title }}</h3></a>
                     <a href="{{site.baseurl}}{{blog.url}}"><h4>{{ blog.intro }}</h4></a>
                     <p class="ImgUrl">{{ site.baseurl }}/img/blogs/{{ blog.imageName }}</p>
@@ -41,14 +41,14 @@
 
       <div class="col-lg-4 col-sm-12">
         <div class="gridSpace newsCard">
-          <div id="weetjeImg" class="imgCard">
+          <div id="weetjeImg" class="imgCard" onclick="location.href='{{ site.baseurl }}/weetjes';" style="cursor: pointer;">
             <div class="cardTitle">
               <h2><a href="{{ site.baseurl }}/weetjes">weetjes</a></h2>
             </div>
           </div>
           <div class="cardInfo">
                 {% for weetje in site.weetjes %}
-                  <div class="newsWeetje displayNot">
+                  <div class="newsWeetje displayNot" onclick="location.href='{{site.baseurl}}{{weetje.url}}';" style="cursor: pointer;">
                     <a href="{{site.baseurl}}{{weetje.url}}"><h3>{{ weetje.title }}</h3></a>
                     <a href="{{site.baseurl}}{{weetje.url}}"><h4>{{ weetje.intro }}</h4></a>
                     <p class="ImgUrl">{{ site.baseurl }}/img/weetjes/{{ weetje.imageName }}</p>
