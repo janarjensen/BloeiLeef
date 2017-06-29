@@ -15,9 +15,9 @@ Na het weekend krijg je het bijbehorende E-book met alle handvatten, tips, oefen
 
 ###### Met aandacht en passie worden er drie soorten weekenden en retraites gegeven:
 
-* Hormoon Balans Weekend
-* Detox Yoga Weekenden
-* Compassie Retraites
+* [Hormoon Balans Weekend]
+* [Detox Yoga Weekenden]
+* [Compassie Retraites]
 
 Ik huur hiervoor een fantastisch tal pracht specialisten in waarmee er keer op keer een bevlogen team vakkundigen op maat ontstaat.  Nieuwsgierig naar meer? Natuurlijk mag dat, dus bel of mail gerust want op elke vraag is een antwoord. Of vraag naar de informatiebroschure.
 
@@ -40,3 +40,6 @@ Ik huur hiervoor een fantastisch tal pracht specialisten in waarmee er keer op k
 **Wens jezelf al jouw hartenwensen mét die van ons voor jou erbij!**
 
 [Meeuwenveen]: http://www.meeuwenveen.nl/
+[Hormoon Balans Weekend]: {{site.baseurl}}/hormoon-balans-weekend
+[Detox Yoga Weekenden]: {{site.baseurl}}/noginvullen
+[Compassie Retraites]: {{site.baseurl}}/noginvullen

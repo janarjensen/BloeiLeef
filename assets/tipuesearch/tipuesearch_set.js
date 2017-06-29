@@ -18,10 +18,8 @@ var tipuesearch_stop_words = ["Een","over","boven","na","weer","tegen","allen","
 // Word replace
 
 var tipuesearch_replace = {'words': [
-     {'word': 'mizzy', 'replace_with': 'Mizzi'},
-     {'word': 'missy', 'replace_with': 'Mizzi'},
-     {'word': 'missie', 'replace_with': 'Mizzi'},
-     {'word': 'mizzi', 'replace_with': 'Mizzi'},
+     {'word': 'bloeienleef', 'replace_with': 'Bloei en Leef'},
+     {'word': 'bloeileef', 'replace_with': 'Bloei en Leef'},
 ]};
 
 

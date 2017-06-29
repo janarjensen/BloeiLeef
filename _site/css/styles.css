@@ -251,7 +251,9 @@ footer {
   margin-top: 8vh;
   margin-bottom: 0;
   background-color: #DCDCDC;
-  padding-top: 3px; }
+  padding-top: 3px;
+  display: flex;
+  justify-content: center; }
   #copyright p {
     display: inline;
     margin: 0 2%; }

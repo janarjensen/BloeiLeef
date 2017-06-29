@@ -11,7 +11,7 @@ $("#meer").click(function(){
   }
   else
   {
-     $(this).text("meer"); 
+     $(this).text("meer");
   };
 });
 
@@ -19,17 +19,17 @@ $("#meer").click(function(){
 $("#circle1").on("click", function(){
   $(this).addClass("selected");
   $("#headerSection").removeClass().addClass("header1");
-  $("#kickerText").text("Verwen je Blij!")
+  $("#kickerText").html("<a id='kickerText' href='bloei-en-leef'><h1>Verwen je Blij!</h1></a>");
 })
 $("#circle2").on("click", function(){
   $(this).addClass("selected");
   $("#headerSection").removeClass().addClass("header2");
-  $("#kickerText").text("Herontdekken wie je werkelijk bent")
+  $("#kickerText").html("<a id='kickerText' href='coaching'><h1>Herontdekken wie je werkelijk bent</h1></a>");
 })
 $("#circle3").on("click", function(){
   $(this).addClass("selected");
   $("#headerSection").removeClass().addClass("header3");
-  $("#kickerText").text("Niet lekker in je vel? Niet op gewicht? Vage klachten?")
+  $("#kickerText").html("<a id='kickerText' href='hormoon-balans-weekend'><h1>Niet lekker in je vel? Niet op gewicht? Vage klachten?</h1></a>");
 })
 
 // ----------set equal heights to all cards in Home
