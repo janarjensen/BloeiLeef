@@ -327,50 +327,10 @@ footer {
       font-weight: bolder;
       font-size: 1.2em; }
 
-#cardsSection .card {
-  height: 70vh;
-  border-radius: 20px;
-  background-position: center;
-  background-size: cover;
-  padding: 10px; }
-  #cardsSection .card .fadeCard {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(255, 255, 255, 0);
-    border-radius: 15px; }
-    #cardsSection .card .fadeCard h2 {
-      color: white;
-      background-color: rgba(0, 0, 0, 0.5);
-      margin: 10px;
-      padding: 10px;
-      border-radius: 10px; }
-    #cardsSection .card .fadeCard:hover {
-      cursor: pointer;
-      background-color: rgba(255, 255, 255, 0.8);
-      transition: 200ms; }
-      #cardsSection .card .fadeCard:hover .cardInfo {
-        opacity: 1;
-        transition: 300ms; }
-    #cardsSection .card .fadeCard .cardInfo {
-      justify-content: center;
-      margin: auto 20px 0 20px;
-      opacity: 0; }
-#cardsSection #card1 {
-  background-image: url(/BloeiLeef/img/cards/bloei-en-leef-maaike-en-alwin.jpg); }
-#cardsSection #card2 {
-  background-image: url(/BloeiLeef/img/cards/bloei-en-leef-maaike-rug.jpg); }
-#cardsSection #card3 {
-  background-image: url(/BloeiLeef/img/cards/bloei-en-leef-maaike-druppel.jpg); }
-#cardsSection #card4 {
-  background-image: url(/BloeiLeef/img/cards/bloei-en-leef-spinazie.jpg); }
-#cardsSection #card5 {
-  background-image: url(/BloeiLeef/img/cards/bloei-en-leef-maaike-plukken.jpg); }
-
-#newsSection #logoFlower .logo {
+#logoFlower .logo {
   margin: 0 auto;
   height: 20vh; }
+
 #newsSection .newsCard {
   border-radius: 20px;
   background-color: #DCDCDC; }
@@ -399,6 +359,49 @@ footer {
   display: none; }
 #newsSection .newsCard .display {
   display: relative; }
+
+#cardsSection {
+  margin-top: 0px; }
+  #cardsSection .card {
+    height: 70vh;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    padding: 10px; }
+    #cardsSection .card .fadeCard {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255, 255, 255, 0);
+      border-radius: 15px; }
+      #cardsSection .card .fadeCard h2 {
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5);
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px; }
+      #cardsSection .card .fadeCard:hover {
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, 0.8);
+        transition: 200ms; }
+        #cardsSection .card .fadeCard:hover .cardInfo {
+          opacity: 1;
+          transition: 300ms; }
+      #cardsSection .card .fadeCard .cardInfo {
+        justify-content: center;
+        margin: auto 20px 0 20px;
+        opacity: 0; }
+  #cardsSection #card1 {
+    background-image: url(/BloeiLeef/img/cards/bloei-en-leef-maaike-en-alwin.jpg); }
+  #cardsSection #card2 {
+    background-image: url(/BloeiLeef/img/cards/bloei-en-leef-maaike-rug.jpg); }
+  #cardsSection #card3 {
+    background-image: url(/BloeiLeef/img/cards/bloei-en-leef-maaike-druppel.jpg); }
+  #cardsSection #card4 {
+    background-image: url(/BloeiLeef/img/cards/bloei-en-leef-spinazie.jpg); }
+  #cardsSection #card5 {
+    background-image: url(/BloeiLeef/img/cards/bloei-en-leef-maaike-plukken.jpg); }
 
 #receptenSection .receptenInfo, #weetjesSection .receptenInfo, #blogsSection .receptenInfo {
   display: flex;
