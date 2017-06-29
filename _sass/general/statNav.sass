@@ -24,12 +24,20 @@
     transition: 700ms
     position: fixed
     top: 25px
+    padding: 0 10px
 
     nav
       display: inline
       justify-content: flex-start
       a
         margin: 0px 10px
+      a:nth-child(1)
+        margin-left: 0px
+
+  #meer
+    color: $bl-hover-color
+    font-weight: bold
+    margin-right: 10px
 
   .clicked
     left: 70px
@@ -38,3 +46,9 @@
   .unClicked
     left: -2000px
     opacity: 0
+
+  .displayNone
+    display: none
+
+  .displayInLine
+    display: inline

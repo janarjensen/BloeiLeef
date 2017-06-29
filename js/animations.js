@@ -2,6 +2,18 @@
 $(".statNavLogo").click(function(){
   $("#statNav").toggleClass("clicked unClicked");
 });
+// toggle class of statNav
+$("#meer").click(function(){
+  $("#meerSpan").toggleClass("displayInLine displayNone");
+  if ($(this).text() == "meer")
+  {
+     $(this).text("minder");
+  }
+  else
+  {
+     $(this).text("meer"); 
+  };
+});
 
 // ----------header circle buttons
 $("#circle1").on("click", function(){

@@ -107,18 +107,29 @@ ul {
     margin-right: 20px;
     transition: 700ms;
     position: fixed;
-    top: 25px; }
+    top: 25px;
+    padding: 0 10px; }
     .statNavContainer #statNav nav {
       display: inline;
       justify-content: flex-start; }
       .statNavContainer #statNav nav a {
         margin: 0px 10px; }
+      .statNavContainer #statNav nav a:nth-child(1) {
+        margin-left: 0px; }
+  .statNavContainer #meer {
+    color: #8A2BE2;
+    font-weight: bold;
+    margin-right: 10px; }
   .statNavContainer .clicked {
     left: 70px;
     opacity: 1; }
   .statNavContainer .unClicked {
     left: -2000px;
     opacity: 0; }
+  .statNavContainer .displayNone {
+    display: none; }
+  .statNavContainer .displayInLine {
+    display: inline; }
 
 footer {
   margin-top: 8vh;
@@ -126,28 +137,28 @@ footer {
   padding-top: 7vh; }
   footer #footerNav {
     margin-bottom: 8vh; }
-    footer #footerNav #nav1 {
+    footer #footerNav .nav1 {
       display: inline; }
-      footer #footerNav #nav1 a:nth-child(1) {
+      footer #footerNav .nav1 a:nth-child(1) {
         font-size: 1em; }
-      footer #footerNav #nav1 a:nth-child(2) {
+      footer #footerNav .nav1 a:nth-child(2) {
         font-size: 4em; }
-      footer #footerNav #nav1 a:nth-child(3) {
+      footer #footerNav .nav1 a:nth-child(3) {
         font-size: 1.5em; }
-      footer #footerNav #nav1 a:nth-child(4) {
+      footer #footerNav .nav1 a:nth-child(4) {
         font-size: 2.3em;
         color: hotpink; }
-        footer #footerNav #nav1 a:nth-child(4):hover {
+        footer #footerNav .nav1 a:nth-child(4):hover {
           color: #8A2BE2; }
-      footer #footerNav #nav1 a:nth-child(5) {
+      footer #footerNav .nav1 a:nth-child(5) {
         font-size: 1.1em;
         border: 2px dotted #8A2BE2;
         padding: 0.2em;
         border-radius: 1.2em; }
-      footer #footerNav #nav1 a:nth-child(6) {
+      footer #footerNav .nav1 a:nth-child(6) {
         font-size: 2.5em;
         color: chocolate; }
-        footer #footerNav #nav1 a:nth-child(6):hover {
+        footer #footerNav .nav1 a:nth-child(6):hover {
           color: #8A2BE2; }
     footer #footerNav #nav2 {
       display: inline; }
