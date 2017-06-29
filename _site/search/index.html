@@ -119,51 +119,28 @@
 </div>
 
 
-<section id="weetjeSection">
+<section id="searchSection">
   <div class="container">
-    <div id="pagetitleElement"style="background-image: url(/img/weetjes/piliNoten.jpg)" class="titleElement">
-      <h1>pili noten</h1>
+    <div style="background-image: url(/img/backgrounds/bloei-en-leef-header-img-3.jpg)" class="pageTitleElement">
+      <h1><i class="fa fa-search" aria-hidden="true"></i><i class="fa fa-search" aria-hidden="true"></i><i class="fa fa-search" aria-hidden="true"></i></h1>
     </div>
     <div class="contentTitleInfo">
-      <a id="backToPrevious" href="/weetjes"><i class="fa fa-undo" aria-hidden="true"></i> WEETJES</a>
-      <p id="date">14 NOV 2016</p>
+      <!-- <a id="backToPrevious" href="/index"><i class="fa fa-undo" aria-hidden="true"></i> Mizzi</a> -->
     </div>
-    <div class="contentContent">
-      <p><strong>Net mega beukennoten!</strong></p>
-      <p><em>Had jij al over de gezondheid van Pili noten gehoord? Of al ergens gespot en mogen proeven?</em>
-Wij hebben ze voor je getest! In onze beleving zijn het net mega grote beukennoten. Zacht van smaak én zijn door hun gezondheidswaarde een fantastische aanvulling op je eigengemaakte (maaltijd)salades! Denk bijvoorbeeld aan een overheerlijke <a href="/recepten/herfstSalade">herfst salade</a>, njom njom njommie!</p>
+    <form action="/search">
+  <div class="tipue_search_right"><input type="text" name="q" id="tipue_search_input" placeholder="Zoek hier op ingrediënten" pattern=".{3,}" title="Minstens 3 karakters" required><h5><i onclick="" id="searchBtn" class="fa fa-search" aria-hidden="true"></i></h5></div>
+  <div style="clear: both;"></div>
+</form>
 
-<h6 id="wat-maakt-de-pili-noot-zo-gezond">Wat maakt de Pili noot zo gezond?</h6>
-
-<ul>
-  <li>In vergelijking met andere noten bevatten ze een boost van maar liefst 220mg vitamine E bij slechts 10 nootjes.</li>
-  <li>Ze beschermen je immuunsysteem en werken goed tegen een droge huid.</li>
-  <li>Fantastische invloed op je hormoonbalans.</li>
-  <li>Zijn goed tegen rimpels en houden je huid vitaal.</li>
-  <li>Bevatten ontzettend veel eiwitten en zijn hiermee een super bron voor je botten en spieren.</li>
-  <li>Ze zitten bomvol gezonde vetten voor je hersenen, hart en algehele gezondheid.</li>
-  <li>En Pili noten hebben natuurlijk ook een positieve invloed op je bloedsuikerspiegel balans.</li>
-</ul>
-
-<h6 id="extra-leuk-om-te-weten">Extra leuk om te weten!</h6>
-
-<ul>
-  <li>Heb je ze nog niet gevonden? Vraag de plaatselijke notenwinkel of notenkraam ernaar.</li>
-  <li>Ze zitten verpakt in een bio katoenen buidel. De bedoeling is dat wanneer je buidel leeg is, je de buidel weer kunt laten vullen zodat je geen extra verpakkingen nodig hebt. Zouden we zoveel mogelijk moeten doen, dan dragen we allemaal een kleine steentje bij aan een betere en schonere wereld. Doe je mee? Leef zoveel mogelijk ‘Bewust Natuurlijk!’ wat samen komen we verder!</li>
-  <li>Naast vit E zit er natuurlijk nog veel meer in dus vergeet vooral niet het toegevoegde kaartje die je erbij krijgt te lezen.</li>
-  <li>Laat vooral het dunne bruine schilletje er omheen zitten. Dit zijn super vezels, geven een extra gezonde demensie aan je noot door het bitterstofje dat dan vrij komt.</li>
-  <li>De notenbasten zijn super goed voor op je composthoop of onder in je plantenbakken. Of in de potten met plantjes in huis doordat ze de vochtbalans goed reguleren.</li>
-  <li>Via de Pili noten willen ze iedereen er aan herinneren, dat we samen kunnen werken aan het beter leren en blijven zorgen voor de aarde en de toekomst van haar en de volgende gerenaties. Vandaar de kreten: REuse, REduce, Recycle voor een bewustere en verbeterde footprint!</li>
-  <li>Naast de overheerlijke verrijking ervan aan je salades, kun je er natuurlijk nog veel meer mee. De smaak is heel zacht en dus met bijna alles te combineren zoals in fruitsalades, bij toetjes, door je bananen brood etc, etc, etc!</li>
-  <li>Gewoon zo los uit het vuistje kan natuurlijk ook maar dan zouden wij je aanbevelen het te eten in combinatie met andere noten voor extra smaakbeleving!</li>
-</ul>
-
-<h5 id="verwen-je-blij-en-pak-er-een-pili-noot-bij">​’Verwen je blij en pak er een Pili noot bij!’</h5>
-
-
-    </div>
+    <div id="tipue_search_content"></div>
   </div>
 </section>
+
+<script>
+$(document).ready(function() {
+  $('#tipue_search_input').tipuesearch();
+});
+</script>
 
 
 <footer>
@@ -235,6 +212,10 @@ Wij hebben ze voor je getest! In onze beleving zijn het net mega grote beukennot
 
 <!-- Js pullins at bottom of body -->
 <!-- Pulling in tipSearch search bar -->
+
+<script src="/assets/tipuesearch/tipuesearch_content.js"></script>
+<script src="/assets/tipuesearch/tipuesearch_set.js"></script>
+<script src="/assets/tipuesearch/tipuesearch.min.js"></script>
 
 
 <!-- pulling in bootstrap javascript (online repository) needs to be aftyer jQuery pull in -->

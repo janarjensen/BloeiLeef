@@ -1,0 +1,55 @@
+#searchSection
+  .pageTitleElement
+    background-position: top
+    background-size: cover
+    height: 50vh
+    display: flex
+    flex-direction: column
+    justify-content: center
+    text-align: center
+    margin: 25px 0px
+
+  .contentTitleInfo
+    text-shadow: 0px 4px 3px black
+    margin-top: -65px
+    display: inline-flex
+    flex-direction: row
+    justify-content: space-between
+    width: 100%
+    padding: 0 20px 0 14px
+
+    #backToPrevious
+      color: $bl-green
+      align-self: baseline
+      &:hover
+        color: $bl-hover-color
+
+  @searchBarLayout
+
+  #tipue_search_results_count
+    text-align: right
+
+  .tipue_search_content_title
+    a
+      font-size: 2em
+      font-weight: bold
+      color: $bl-green
+      &:hover
+        color: $bl-hover-color
+
+  .tipue_search_content_url
+    a
+      font-size: 1.3em
+      color: $bl-hover-color
+      &:hover
+        text-decoration: underline
+
+  .tipue_search_content_text
+    font-size: 1.3em
+    color: $bl-text-color
+    background-color: $bl-green
+    margin-bottom: 4vmin
+
+  .tipue_search_content_bold
+    font-weight: bold
+    color: $bl-green

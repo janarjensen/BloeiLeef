@@ -1,5 +1,9 @@
-<!-- Pulling in jQuery (online repository) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Pulling in tipSearch search bar -->
+{% if page.tipue_search_active or layout.tipue_search_active %}
+<script src="{{ "/assets/tipuesearch/tipuesearch_content.js" | relative_url }}"></script>
+<script src="{{ "/assets/tipuesearch/tipuesearch_set.js" | relative_url }}"></script>
+<script src="{{ "/assets/tipuesearch/tipuesearch.min.js" | relative_url }}"></script>
+{% endif %}
 
 <!-- pulling in bootstrap javascript (online repository) needs to be aftyer jQuery pull in -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -10,4 +14,4 @@
 <!-- pulling in AJ animations -->
 <script type="text/javascript" src="{{site.baseurl}}/js/animations.js"></script>
 <script type="text/javascript" src="{{site.baseurl}}/js/iOSWebAppNav.js"></script>
-<script type="text/javascript" src="{{site.baseurl}}/js/receptAnimations.js"></script>
+<!-- <script type="text/javascript" src="{{site.baseurl}}/js/receptAnimations.js"></script> -->

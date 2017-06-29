@@ -39,6 +39,9 @@
 	<meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 
+	<!-- Pulling in jQuery (online repository) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
 </head>
 
 <div class="statNavContainer">
@@ -104,7 +107,13 @@
   <a href="">nieuwsbrief</a>
   <a href="/partners">partners</a>
 </nav>
-</span>
+
+      </span>
+      <form action="/search">
+  <div class="tipue_search_right"><input type="text" name="q" id="tipue_search_input" placeholder="Zoek hier op ingrediënten" pattern=".{3,}" title="Minstens 3 karakters" required><h5><i onclick="" id="searchBtn" class="fa fa-search" aria-hidden="true"></i></h5></div>
+  <div style="clear: both;"></div>
+</form>
+
   </div>
 
 </div>
@@ -211,8 +220,8 @@
 
 
 <!-- Js pullins at bottom of body -->
-<!-- Pulling in jQuery (online repository) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Pulling in tipSearch search bar -->
+
 
 <!-- pulling in bootstrap javascript (online repository) needs to be aftyer jQuery pull in -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -223,5 +232,5 @@
 <!-- pulling in AJ animations -->
 <script type="text/javascript" src="/js/animations.js"></script>
 <script type="text/javascript" src="/js/iOSWebAppNav.js"></script>
-<script type="text/javascript" src="/js/receptAnimations.js"></script>
+<!-- <script type="text/javascript" src="/js/receptAnimations.js"></script> -->
 

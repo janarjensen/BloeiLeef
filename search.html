@@ -1,0 +1,24 @@
+---
+layout: default
+title: Zoek resultaten
+tipue_search_active: true
+exclude_from_search: true
+---
+<section id="searchSection">
+  <div class="container">
+    <div style="background-image: url({{site.baseurl}}/img/backgrounds/bloei-en-leef-header-img-3.jpg)" class="pageTitleElement">
+      <h1><i class="fa fa-search" aria-hidden="true"></i><i class="fa fa-search" aria-hidden="true"></i><i class="fa fa-search" aria-hidden="true"></i></h1>
+    </div>
+    <div class="contentTitleInfo">
+      <!-- <a id="backToPrevious" href="{{ site.baseurl }}/index"><i class="fa fa-undo" aria-hidden="true"></i> Mizzi</a> -->
+    </div>
+    {% include general/searchForm.html %}
+    <div id="tipue_search_content"></div>
+  </div>
+</section>
+
+<script>
+$(document).ready(function() {
+  $('#tipue_search_input').tipuesearch();
+});
+</script>
