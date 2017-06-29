@@ -582,3 +582,58 @@ footer {
   max-width: 90vw;
   margin: 0 auto;
   border-radius: 20px; }
+
+#contactForm h2 {
+  margin-top: 10vh; }
+  #contactForm h2 svg {
+    height: 1em; }
+#contactForm .padding10px {
+  padding-top: 0px;
+  padding-bottom: 0px; }
+#contactForm .contactFormCard {
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column; }
+  #contactForm .contactFormCard .nameEmail, #contactForm .contactFormCard .message {
+    float: left; }
+  #contactForm .contactFormCard textarea, #contactForm .contactFormCard input {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #008d90;
+    background-color: #008d90;
+    margin: 10px 0;
+    color: white; }
+  #contactForm .contactFormCard textarea {
+    height: 160px;
+    padding: 9px 10px;
+    resize: vertical; }
+    #contactForm .contactFormCard textarea:focus {
+      background-color: white;
+      border: 2px solid #008d90;
+      outline: 0;
+      color: #444444; }
+  #contactForm .contactFormCard input {
+    height: 40px;
+    padding: 0 10px; }
+    #contactForm .contactFormCard input:focus {
+      background-color: white;
+      border: 2px solid #008d90;
+      outline: 0;
+      color: #444444; }
+  #contactForm .contactFormCard ::-webkit-input-placeholder {
+    color: white; }
+  #contactForm .contactFormCard :-moz-placeholder {
+    color: white; }
+  #contactForm .contactFormCard ::-moz-placeholder {
+    color: white; }
+  #contactForm .contactFormCard :-ms-input-placeholder {
+    color: white; }
+#contactForm .sendButtonContainer [type="submit"] {
+  background-color: white;
+  border: 2px solid #008d90;
+  color: #008d90;
+  text-align: left; }
+  #contactForm .sendButtonContainer [type="submit"]:hover {
+    background-color: #008d90;
+    border: 2px solid #008d90;
+    color: white; }
