@@ -950,3 +950,6 @@ footer {
   #searchSection .tipue_search_content_bold {
     font-weight: bold;
     color: #008d90; }
+
+.freebirdFormviewerViewHeaderTitle {
+  font-size: 12em !important; }
