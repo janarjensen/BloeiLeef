@@ -116,10 +116,11 @@ ul {
         margin: 0px 10px; }
       .statNavContainer #statNav nav a:nth-child(1) {
         margin-left: 0px; }
-  .statNavContainer #meer {
+  .statNavContainer .aStyle {
     color: #8A2BE2;
     font-weight: bold;
-    margin-right: 10px; }
+    margin-right: 10px;
+    display: inline; }
   .statNavContainer .clicked {
     left: 70px;
     opacity: 1; }
