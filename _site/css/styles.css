@@ -584,6 +584,7 @@ footer {
     background-size: cover;
     background-position: top;
     clip-path: polygon(100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+    -webkit-clip-path: polygon(100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
     border-radius: 20px;
     padding: 20px; }
   #newsSection .newsCard .cardInfo {
