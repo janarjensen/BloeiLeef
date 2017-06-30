@@ -5,11 +5,13 @@
   </div>
 
   <div id="statNav" class="unClicked">
+    <a id="searchIconStat" onclick="" style="cursor: pointer;"><i class="fa fa-search" aria-hidden="true"></i></a>
     {% include general/navigation1.html %}
-      <a id="meer" onclick="" style="cursor: pointer;">meer</a>
-      <span id="meerSpan" class="displayNone">{% include general/navigation2.html %}
-      </span>
+    <a id="meer" onclick="" style="cursor: pointer;">meer</a>
+    <span id="meerSpan" class="displayNone">{% include general/navigation2.html %}</span>
+    <div id="searchNav"class="height0">
       {% include general/searchForm.html %}
+    </div>
   </div>
 
 </div>

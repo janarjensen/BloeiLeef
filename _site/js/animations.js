@@ -61,6 +61,11 @@ $(function() {
 });
 
 // toggle class of searchIcon
-$("#searchIcon").click(function(){
+$(".searchIcon").click(function(){
   $(".contentNav").toggleClass("height0 heightAuto");
+});
+
+// toggle class of searchIcon statNav
+$("#searchIconStat").click(function(){
+  $("#searchNav").toggleClass("height0 heightAuto");
 });

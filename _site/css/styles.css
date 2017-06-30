@@ -130,6 +130,11 @@ ul {
     display: none; }
   .statNavContainer .displayInLine {
     display: inline; }
+  .statNavContainer .height0 {
+    height: 0;
+    overflow: hidden; }
+  .statNavContainer .heightAuto {
+    height: auto; }
 
 footer {
   margin-top: 8vh;
