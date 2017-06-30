@@ -614,6 +614,10 @@ footer {
       height: 100%;
       background-color: rgba(255, 255, 255, 0);
       border-radius: 15px; }
+      #cardsSection .card .fadeCard h4 {
+        color: #008d90;
+        font-weight: bolder;
+        font-size: 1.3em; }
       #cardsSection .card .fadeCard h2 {
         color: white;
         background-color: rgba(0, 0, 0, 0.5);
