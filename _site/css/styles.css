@@ -120,7 +120,8 @@ ul {
     color: #8A2BE2;
     font-weight: bold;
     margin-right: 10px;
-    display: inline; }
+    display: inline;
+    cursor: pointer; }
   .statNavContainer .clicked {
     left: 70px;
     opacity: 1; }
