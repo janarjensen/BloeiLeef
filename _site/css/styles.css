@@ -220,7 +220,8 @@ footer {
     background-color: #DCDCDC;
     padding: 10px; }
     footer #newsLetter h3 {
-      margin-top: -5px; }
+      margin-top: -5px;
+      font-weight: bold; }
     footer #newsLetter .radioContainer {
       display: flex;
       flex-direction: row;
@@ -257,15 +258,17 @@ footer {
       color: white; }
     footer #newsLetter :-ms-input-placeholder {
       color: white; }
-    footer #newsLetter .sendButtonContainer [type="submit"] {
-      background-color: #DCDCDC;
-      border: 2px solid #008d90;
-      color: #008d90;
-      text-align: left; }
-      footer #newsLetter .sendButtonContainer [type="submit"]:hover {
-        background-color: #008d90;
+    footer #newsLetter .sendButtonContainer {
+      margin-bottom: -10px; }
+      footer #newsLetter .sendButtonContainer [type="submit"] {
+        background-color: #DCDCDC;
         border: 2px solid #008d90;
-        color: white; }
+        color: #008d90;
+        text-align: left; }
+        footer #newsLetter .sendButtonContainer [type="submit"]:hover {
+          background-color: #008d90;
+          border: 2px solid #008d90;
+          color: white; }
 
 #copyright {
   margin-top: 8vh;
