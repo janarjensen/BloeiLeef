@@ -32,16 +32,16 @@ Kwaliteiten bundelen en verbinden, voor elkaar en met elkaar ondernemen, zorgt v
 [Ralph Moorman]: http://www.dehormoonfactor.nl
 [De Hormoonfactor]: {{site.baseurl}}/noginvullen
 [Yakso]: http://www.fzorganicfood.com/merk/yakso/
-[Culinaire Fotografie]: {{site.baseurl}}/culinaire-fotografie
+[Culinaire Fotografie]: {{site.baseurl}}/page/culinaire-fotografie
 [Eko Plaza Meppel]: https://www.ekoplaza.nl/vestigingen/meppel/
 [Holland & Barrett Meppel]: https://www.hollandandbarrett.nl/stores/storeLocator.jsp?gclid=CKf_nOf8-NACFVQ_Gwodp9AP4Q
 [Meeuwenveen]: http://www.meeuwenveen.nl
-[Weekenden en Retraites]: {{site.baseurl}}/weekenden-en-retraites
+[Weekenden en Retraites]: {{site.baseurl}}/page/weekenden-en-retraites
 [Wouter de Jong]: http://www.wouterdejong.nl
 [Compassie Retraites]: {{site.baseurl}}/noginvullen
 [Frans de Grebber]: https://fransdegrebber.nl
 [De Groene Lantaarn]: http://www.degroenelantaarn.com
-[Bewust Natuurlijke]: {{site.baseurl}}/bio-tuin
+[Bewust Natuurlijke]: {{site.baseurl}}/page/bio-tuin
 [Het Volle Leven]: http://www.hetvolleleven.com
 [TYD met Sara]: http://sararensema.nl
 [Healthcare Song]: http://healthcaresong.nl

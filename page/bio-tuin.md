@@ -22,4 +22,4 @@ Ik doe dit met oog voor het ondersteunen van alle ecologische processen: zonder 
 **Bewust Natuurlijk zaaien en oogsten schenkt prachtvoer vanuit jouw buitenwereld voor jouw binnenwereld!**
 
 [bio tuin]: {{ site.baseurl }}/img/generalPages/bloei-en-leef-maaike-plukken.jpg
-[Bloei en Leef]: {{ site.baseurl }}/bloei-en-leef
+[Bloei en Leef]: {{ site.baseurl }}/page/bloei-en-leef

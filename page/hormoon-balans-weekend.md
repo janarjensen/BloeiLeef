@@ -69,4 +69,4 @@ Hoe deze pijlers in balans te krijgen zodat zij jou gaan dienen? Dat leer je tij
 
 [De Hormoonfactor]: http://www.dehormoonfactor.nl
 [Hormoonfactor Trainer]: {{site.baseurl}}/noginvullen
-[contact]: {{site.baseurl}}/contact
+[contact]: {{site.baseurl}}/page/contact

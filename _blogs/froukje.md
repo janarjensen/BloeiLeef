@@ -36,4 +36,4 @@ En zo zijn we ruim een half jaar verder. Mijn zesde en laatste [consult bij Bloe
 Groetjes Froukje
 
 [Detox-Yoga Weekend]: {{ site.baseurl }}/weekendenEnRetraites
-[consult bij Bloei en Leef]: {{ site.baseurl }}/coaching
+[consult bij Bloei en Leef]: {{ site.baseurl }}/page/coaching

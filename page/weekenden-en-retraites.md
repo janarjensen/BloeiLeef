@@ -40,6 +40,6 @@ Ik huur hiervoor een fantastisch tal pracht specialisten in waarmee er keer op k
 **Wens jezelf al jouw hartenwensen mét die van ons voor jou erbij!**
 
 [Meeuwenveen]: http://www.meeuwenveen.nl/
-[Hormoon Balans Weekend]: {{site.baseurl}}/hormoon-balans-weekend
+[Hormoon Balans Weekend]: {{site.baseurl}}/page/hormoon-balans-weekend
 [Detox Yoga Weekenden]: {{site.baseurl}}/noginvullen
 [Compassie Retraites]: {{site.baseurl}}/noginvullen
