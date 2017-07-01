@@ -191,16 +191,14 @@ footer {
       footer #footerNav #nav2 a:nth-child(9) {
         font-size: 1.3em; }
   footer #socialMedia {
-    display: inline-flex;
-    flex-direction: column;
-    justify-content: space-around;
     background: #3494E6;
     background: -webkit-linear-gradient(to left, #8A2BE2, #008d90);
     background: linear-gradient(to left, #8A2BE2, #008d90);
-    min-height: 30vh;
-    border: 10px solid white;
     border-radius: 20px;
-    color: white; }
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column; }
     footer #socialMedia h3 {
       color: white; }
       footer #socialMedia h3 .lobster {
@@ -217,41 +215,56 @@ footer {
         font-size: 4em; }
         footer #socialMedia .socialMediaContainer i:hover {
           text-shadow: 2px 2px 3px black; }
-  footer .card {
-    height: 30vh;
+  footer #newsLetter {
     border-radius: 20px;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin: 0px;
-    padding: 0px;
-    background-image: url("../img/products/bloei-en-leef-kookboek.jpg"); }
-    footer .card .fadeCard {
+    background-color: #DCDCDC;
+    padding: 10px; }
+    footer #newsLetter h3 {
+      margin-top: -5px; }
+    footer #newsLetter .radioContainer {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
+      justify-content: space-around; }
+    footer #newsLetter textarea, footer #newsLetter input {
       width: 100%;
-      height: 100%;
-      background-color: rgba(255, 255, 255, 0); }
-      footer .card .fadeCard:hover {
-        cursor: pointer;
-        background-color: rgba(255, 255, 255, 0.8);
-        transition: 200ms; }
-        footer .card .fadeCard:hover .cardInfo {
-          opacity: 1;
-          transition: 300ms; }
-      footer .card .fadeCard .cardInfo {
-        justify-content: center;
-        margin: auto 20px 0 20px;
-        opacity: 0; }
-      footer .card .fadeCard .cardTitle {
-        background-color: rgba(255, 0, 0, 0.5);
-        padding: 2px;
-        border-radius: 10px;
-        margin: auto auto;
-        margin-bottom: 15px;
-        justify-content: flex-end;
-        width: 50%; }
-      footer .card .fadeCard h2 {
+      box-sizing: border-box;
+      border: 2px solid #008d90;
+      background-color: #008d90;
+      color: white;
+      border-radius: 10px; }
+    footer #newsLetter textarea {
+      height: 160px;
+      padding: 9px 10px;
+      resize: vertical; }
+      footer #newsLetter textarea:focus {
+        background-color: white;
+        border: 2px solid #008d90;
+        outline: 0;
+        color: #444444; }
+    footer #newsLetter input {
+      height: 40px;
+      padding: 0 10px; }
+      footer #newsLetter input:focus {
+        background-color: white;
+        border: 2px solid #008d90;
+        outline: 0;
+        color: #444444; }
+    footer #newsLetter ::-webkit-input-placeholder {
+      color: white; }
+    footer #newsLetter :-moz-placeholder {
+      color: white; }
+    footer #newsLetter ::-moz-placeholder {
+      color: white; }
+    footer #newsLetter :-ms-input-placeholder {
+      color: white; }
+    footer #newsLetter .sendButtonContainer [type="submit"] {
+      background-color: #DCDCDC;
+      border: 2px solid #008d90;
+      color: #008d90;
+      text-align: left; }
+      footer #newsLetter .sendButtonContainer [type="submit"]:hover {
+        background-color: #008d90;
+        border: 2px solid #008d90;
         color: white; }
 
 #copyright {
@@ -828,10 +841,6 @@ footer {
   margin: 0 auto;
   border-radius: 20px; }
 
-#contactForm h2 {
-  margin-top: 10vh; }
-  #contactForm h2 svg {
-    height: 1em; }
 #contactForm .padding10px {
   padding-top: 0px;
   padding-bottom: 0px; }

@@ -102,16 +102,6 @@ var tipuesearch = {"pages": [
   
   
   {
-    "title": "Nieuwsbrief",
-    "text": "Naam email Ik wil mij... Aanmelden voor de nieuwsbrief Afmelden voor de nieuwsbrief",
-    "tags": "",
-    "url": "/nieuwsbrief/"
-  },
-
-  
-  
-  
-  {
     "title": "Partners",
     "text": "VOOR elkaar en MET elkaar ondernemen! Dankbaar en blij met alle samenwerkingen. Door alle samenwerkingen met specialisten en bevlogen vakkundige mensen is het mogelijk om al het mooie dat er al is nog mooier te maken! Kwaliteiten bundelen en verbinden, voor elkaar en met elkaar ondernemen, zorgt voor nog meer professionaliteit. Ralph Moorman - De Hormoonfactor Yakso - Voor hen verzorg ik de Culinaire Fotografie Eko Plaza Meppel - Initiatief ‘Optimaal Gezond Safari’ Holland &amp; Barrett Meppel - Initiatief ‘Optimaal Gezond Safari’ Meeuwenveen - Is de locatie voor alle Hart Verwen Weekenden en Retraites Wouter de Jong - Partner die ik inhuur voor het verzorgen van de Compassie Retraites. Frans de Grebber - Samenwerkingspartner voor bewust natuurlijke theeën. De Groene Lantaarn - Sterrenrestaurant en afnemer van Bewust Natuurlijke oogst. Het Volle Leven - Restaurant en afnemer van bewust natuurlijke oogst. TYD met Sara - Masseuse. Healthcare Song - Masseuse. Elly van der Hoeff - Masseuse. Joan Beekhuis - Masseuse. Mirjam de Jonge - Masseuse. Door samen delen, samenwerken en doorgeven, beleef je de rijkdom van alles wat is!",
     "tags": "",

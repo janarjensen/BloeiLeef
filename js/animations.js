@@ -32,10 +32,16 @@ $("#circle3").on("click", function(){
   $("#kickerText").html("<a id='kickerText' href='hormoon-balans-weekend'><h1>Niet lekker in je vel? Niet op gewicht? Vage klachten?</h1></a>");
 })
 
-// ----------set equal heights to all cards in Home
+// ----------set equal heights
 $(function() {
     $('.newsCard').matchHeight();
 });
+// ----------set equal heights to all cards in Home
+$(function() {
+    $('.footerConect').matchHeight();
+});
+
+
 
 // -----------random diplay recept in news card 1
 var randomReceptNr = Math.floor(Math.random() * $(".newsRecept").length)
