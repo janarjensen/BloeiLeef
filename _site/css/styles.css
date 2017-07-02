@@ -52,7 +52,6 @@ ul {
   margin: 0px;
   padding: 0px; }
   ul li {
-    line-height: 50px;
     background: url("../favicon.ico") 0 8px no-repeat;
     padding: 0px 0px 0px 50px; }
   ul textarea, ul input {
@@ -217,60 +216,6 @@ footer {
         font-size: 4em; }
         footer #socialMedia .socialMediaContainer i:hover {
           text-shadow: 2px 2px 3px black; }
-  footer #newsLetter {
-    border-radius: 20px;
-    background-color: #DCDCDC;
-    padding: 10px; }
-    footer #newsLetter h3 {
-      margin-top: -5px;
-      font-weight: bold; }
-    footer #newsLetter .radioContainer {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around; }
-    footer #newsLetter textarea, footer #newsLetter input {
-      width: 100%;
-      box-sizing: border-box;
-      border: 2px solid #008d90;
-      background-color: #008d90;
-      color: white;
-      border-radius: 10px; }
-    footer #newsLetter textarea {
-      height: 160px;
-      padding: 9px 10px;
-      resize: vertical; }
-      footer #newsLetter textarea:focus {
-        background-color: white;
-        border: 2px solid #008d90;
-        outline: 0;
-        color: #444444; }
-    footer #newsLetter input {
-      height: 40px;
-      padding: 0 10px; }
-      footer #newsLetter input:focus {
-        background-color: white;
-        border: 2px solid #008d90;
-        outline: 0;
-        color: #444444; }
-    footer #newsLetter ::-webkit-input-placeholder {
-      color: white; }
-    footer #newsLetter :-moz-placeholder {
-      color: white; }
-    footer #newsLetter ::-moz-placeholder {
-      color: white; }
-    footer #newsLetter :-ms-input-placeholder {
-      color: white; }
-    footer #newsLetter .sendButtonContainer {
-      margin-bottom: -10px; }
-      footer #newsLetter .sendButtonContainer [type="submit"] {
-        background-color: #DCDCDC;
-        border: 2px solid #008d90;
-        color: #008d90;
-        text-align: left; }
-        footer #newsLetter .sendButtonContainer [type="submit"]:hover {
-          background-color: #008d90;
-          border: 2px solid #008d90;
-          color: white; }
 
 #copyright {
   margin-top: 8vh;
@@ -632,58 +577,6 @@ footer {
   margin: 0 auto;
   border-radius: 20px; }
 
-#contactForm .padding10px {
-  padding-top: 0px;
-  padding-bottom: 0px; }
-#contactForm .contactFormCard {
-  padding: 0px 20px;
-  display: flex;
-  flex-direction: column; }
-  #contactForm .contactFormCard .nameEmail, #contactForm .contactFormCard .message {
-    float: left; }
-  #contactForm .contactFormCard textarea, #contactForm .contactFormCard input {
-    width: 100%;
-    box-sizing: border-box;
-    border: 2px solid #008d90;
-    background-color: #008d90;
-    margin: 10px 0;
-    color: white;
-    border-radius: 10px; }
-  #contactForm .contactFormCard textarea {
-    height: 160px;
-    padding: 9px 10px;
-    resize: vertical; }
-    #contactForm .contactFormCard textarea:focus {
-      background-color: white;
-      border: 2px solid #008d90;
-      outline: 0;
-      color: #444444; }
-  #contactForm .contactFormCard input {
-    height: 40px;
-    padding: 0 10px; }
-    #contactForm .contactFormCard input:focus {
-      background-color: white;
-      border: 2px solid #008d90;
-      outline: 0;
-      color: #444444; }
-  #contactForm .contactFormCard ::-webkit-input-placeholder {
-    color: white; }
-  #contactForm .contactFormCard :-moz-placeholder {
-    color: white; }
-  #contactForm .contactFormCard ::-moz-placeholder {
-    color: white; }
-  #contactForm .contactFormCard :-ms-input-placeholder {
-    color: white; }
-#contactForm .sendButtonContainer [type="submit"] {
-  background-color: white;
-  border: 2px solid #008d90;
-  color: #008d90;
-  text-align: left; }
-  #contactForm .sendButtonContainer [type="submit"]:hover {
-    background-color: #008d90;
-    border: 2px solid #008d90;
-    color: white; }
-
 .tipue_search_right {
   display: flex;
   flex-direction: row;
@@ -749,3 +642,168 @@ footer {
   #searchSection .tipue_search_content_bold {
     font-weight: bold;
     color: #008d90; }
+
+#contactForm .padding10px {
+  padding-top: 0px;
+  padding-bottom: 0px; }
+#contactForm .contactFormCard {
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column; }
+  #contactForm .contactFormCard .nameEmail, #contactForm .contactFormCard .message {
+    float: left; }
+  #contactForm .contactFormCard textarea, #contactForm .contactFormCard input {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #008d90;
+    background-color: #008d90;
+    margin: 10px 0;
+    color: white;
+    border-radius: 10px; }
+  #contactForm .contactFormCard textarea {
+    height: 160px;
+    padding: 9px 10px;
+    resize: vertical; }
+    #contactForm .contactFormCard textarea:focus {
+      background-color: white;
+      border: 2px solid #008d90;
+      outline: 0;
+      color: #444444; }
+  #contactForm .contactFormCard input {
+    height: 40px;
+    padding: 0 10px; }
+    #contactForm .contactFormCard input:focus {
+      background-color: white;
+      border: 2px solid #008d90;
+      outline: 0;
+      color: #444444; }
+  #contactForm .contactFormCard ::-webkit-input-placeholder {
+    color: white; }
+  #contactForm .contactFormCard :-moz-placeholder {
+    color: white; }
+  #contactForm .contactFormCard ::-moz-placeholder {
+    color: white; }
+  #contactForm .contactFormCard :-ms-input-placeholder {
+    color: white; }
+#contactForm .sendButtonContainer [type="submit"] {
+  background-color: white;
+  border: 2px solid #008d90;
+  color: #008d90;
+  text-align: left; }
+  #contactForm .sendButtonContainer [type="submit"]:hover {
+    background-color: #008d90;
+    border: 2px solid #008d90;
+    color: white; }
+
+.nieuwsbrief {
+  border-radius: 20px;
+  background-color: #DCDCDC;
+  padding: 10px; }
+  .nieuwsbrief h3 {
+    margin-top: -5px;
+    font-weight: bold; }
+  .nieuwsbrief .radioContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+  .nieuwsbrief textarea, .nieuwsbrief input {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #008d90;
+    background-color: #008d90;
+    color: white;
+    border-radius: 10px; }
+  .nieuwsbrief textarea {
+    height: 160px;
+    padding: 9px 10px;
+    resize: vertical; }
+    .nieuwsbrief textarea:focus {
+      background-color: white;
+      border: 2px solid #008d90;
+      outline: 0;
+      color: #444444; }
+  .nieuwsbrief input {
+    height: 40px;
+    padding: 0 10px; }
+    .nieuwsbrief input:focus {
+      background-color: white;
+      border: 2px solid #008d90;
+      outline: 0;
+      color: #444444; }
+  .nieuwsbrief ::-webkit-input-placeholder {
+    color: white; }
+  .nieuwsbrief :-moz-placeholder {
+    color: white; }
+  .nieuwsbrief ::-moz-placeholder {
+    color: white; }
+  .nieuwsbrief :-ms-input-placeholder {
+    color: white; }
+  .nieuwsbrief .sendButtonContainer {
+    margin-bottom: -10px; }
+    .nieuwsbrief .sendButtonContainer [type="submit"] {
+      background-color: #DCDCDC;
+      border: 2px solid #008d90;
+      color: #008d90;
+      text-align: left;
+      font-size: 1.3em; }
+      .nieuwsbrief .sendButtonContainer [type="submit"]:hover {
+        background-color: #008d90;
+        border: 2px solid #008d90;
+        color: white;
+        font-weight: bold; }
+
+.webReactie {
+  border-radius: 20px;
+  background-color: #DCDCDC;
+  padding: 1px 18px; }
+  .webReactie h3 {
+    margin-top: -5px;
+    font-weight: bold; }
+  .webReactie .radioContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+  .webReactie textarea, .webReactie input {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid white;
+    background-color: white;
+    color: #444444;
+    border-radius: 10px; }
+  .webReactie textarea {
+    height: 160px;
+    padding: 9px 10px;
+    resize: vertical; }
+    .webReactie textarea:focus {
+      background-color: white;
+      border: 2px solid #008d90;
+      outline: 0;
+      color: #444444; }
+  .webReactie input {
+    height: 40px;
+    padding: 0 10px; }
+    .webReactie input:focus {
+      background-color: white;
+      border: 2px solid #008d90;
+      outline: 0;
+      color: #444444; }
+  .webReactie ::-webkit-input-placeholder {
+    color: #444444; }
+  .webReactie :-moz-placeholder {
+    color: #444444; }
+  .webReactie ::-moz-placeholder {
+    color: #444444; }
+  .webReactie :-ms-input-placeholder {
+    color: #444444; }
+  .webReactie .sendButtonContainer {
+    margin-bottom: -10px; }
+    .webReactie .sendButtonContainer [type="submit"] {
+      background-color: #DCDCDC;
+      border: 2px solid white;
+      color: white;
+      text-align: left;
+      font-size: 1.3em; }
+      .webReactie .sendButtonContainer [type="submit"]:hover {
+        border: 2px solid #008d90;
+        color: #008d90;
+        font-weight: bold; }

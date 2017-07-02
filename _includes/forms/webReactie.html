@@ -1,0 +1,33 @@
+<div class="webReactie">
+  <script type="text/javascript">var submitted=false;</script>
+    <iframe name="hidden_iframe" style="display:none;" onload="if(submitted) {alert('Uw reactie is verzonden');}"></iframe>
+  <form action="https://docs.google.com/forms/d/e/1FAIpQLSd0sdkxtMoJqdyTmOlE3iKxwmU8i5V0Vzk81KFifrF1GECv4Q/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
+    <p><input type="text" name="entry.155479601" value="{{ page.title }}" style="display:none"></p>
+    <p><input type="text" name="entry.1534381720" value="{{ page.layout }}" style="display:none"></p>
+    <div class="radioContainer">
+      <p class="inputContainer"><input type="radio" name="entry.1018839064" value="Aanvulling"><label>aanvulling</label></p>
+      <p class="inputContainer"><input type="radio" name="entry.1018839064" value="Reactie"><label>reactie</label></p>
+      <p class="inputContainer"><input type="radio" name="entry.1018839064" value="Compliment"><label>compliment</label></p>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="gridSpace footerConect">
+          <p><textarea name="entry.1493850388" value="" placeholder="bericht"></textarea></p>
+        </div>
+      </div>
+      <div class="col-lg-8 col-md-6 col-sm-12">
+        <div class="gridSpace footerConect">
+          <p><input type="text" name="entry.1757039817" value="" placeholder="naam"></p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="gridSpace footerConect">
+          <div class="sendButtonContainer">
+            <input type="submit" value="verzenden">
+          </div>
+        </div>
+      </div>
+    </div>
+	</form>
+</div>

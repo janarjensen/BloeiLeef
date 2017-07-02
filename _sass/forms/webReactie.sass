@@ -1,0 +1,59 @@
+.webReactie
+  border-radius: $bl-border-radius
+  background-color: $bl-news-gray
+  padding: 1px 18px
+  h3
+    margin-top: -5px
+    font-weight: bold
+
+  .radioContainer
+    display: flex
+    flex-direction: row
+    justify-content: space-around
+  textarea, input
+    width: 100%
+    box-sizing: border-box
+    border: 2px solid white
+    background-color: white
+    color: $bl-text-color
+    border-radius: $bl-border-radius-small
+
+  textarea
+    height: 160px
+    padding: 9px 10px
+    resize: vertical
+    &:focus
+      background-color: white
+      border: 2px solid $bl-green
+      outline: 0
+      color: $bl-text-color
+
+  input
+    height: 40px
+    padding: 0 10px
+    &:focus
+      background-color: white
+      border: 2px solid $bl-green
+      outline: 0
+      color: $bl-text-color
+  \::-webkit-input-placeholder
+    color: $bl-text-color
+  \:-moz-placeholder
+    color: $bl-text-color
+  \::-moz-placeholder
+    color: $bl-text-color
+  \:-ms-input-placeholder
+    color: $bl-text-color
+
+  .sendButtonContainer
+    margin-bottom: -10px
+    [type="submit"]
+      background-color: $bl-news-gray
+      border: 2px solid white
+      color: white
+      text-align: left
+      font-size: 1.3em
+      &:hover
+        border: 2px solid $bl-green
+        color: $bl-green
+        font-weight: bold
