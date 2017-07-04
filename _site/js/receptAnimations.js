@@ -23,3 +23,10 @@ $("input[type='range']").on("change", function(event){
 $("ul").on("click", "li", function(){
   $(this).toggleClass("completed");
 });
+
+$(document).on("pagecreate","#pageone",function(){
+  alert("you just swiped");
+  // $("p").on("swipe",function(){
+  //   $(this).hide();
+  // });
+});

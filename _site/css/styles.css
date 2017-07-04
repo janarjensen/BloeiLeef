@@ -580,13 +580,12 @@ footer {
   max-width: 90vw;
   margin: 0 auto;
   border-radius: 20px;
-  cursor: zoom-in; }
+  cursor: zoom-in;
+  transition: 0.5s; }
 .generalPageSection .fullScreen {
   width: 100%;
-  cursor: zoom-out; }
-  @media only screen and (max-width: 600px) {
-    .generalPageSection .fullScreen {
-      width: 200vw; } }
+  cursor: zoom-out;
+  transition: 0.5s; }
 
 .tipue_search_right {
   display: flex;
