@@ -412,12 +412,8 @@ footer {
     flex-wrap: wrap; }
     #receptenSection .receptenInfo #receptSuffice .suffice, #weetjesSection .receptenInfo #receptSuffice .suffice, #blogsSection .receptenInfo #receptSuffice .suffice {
       margin-right: 20px; }
-  #receptenSection .receptenInfo #searchIcon, #weetjesSection .receptenInfo #searchIcon, #blogsSection .receptenInfo #searchIcon {
-    align-self: flex-end;
-    margin-left: auto;
-    margin-bottom: auto; }
-    #receptenSection .receptenInfo #searchIcon:hover, #weetjesSection .receptenInfo #searchIcon:hover, #blogsSection .receptenInfo #searchIcon:hover {
-      cursor: pointer; }
+  #receptenSection .receptenInfo .searchIcon:hover, #weetjesSection .receptenInfo .searchIcon:hover, #blogsSection .receptenInfo .searchIcon:hover {
+    cursor: pointer; }
 #receptenSection .contentNav, #weetjesSection .contentNav, #blogsSection .contentNav {
   display: flex;
   flex-direction: column;
