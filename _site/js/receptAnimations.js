@@ -70,5 +70,7 @@ swipedetect(el, function(swipedir){
     if (swipedir =='left')
         location.href = $('.previous').attr('href');
     if (swipedir =='right')
-        location.href = $('.next').attr('href');
+        location.href = $('.previous').attr('href');
 })
+
+// console.log($('.previous').attr('href'));
