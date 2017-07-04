@@ -63,7 +63,7 @@ ul {
 .lobster {
   font-family: "Lobster", cursive; }
 
-.pagetitleElement {
+.titleElement, .pagetitleElement {
   background-position: center;
   background-size: cover;
   height: 50vh;
@@ -72,7 +72,7 @@ ul {
   justify-content: center;
   margin: 25px 0px;
   border-radius: 20px; }
-  .pagetitleElement h2, .pagetitleElement h1 {
+  .titleElement h2, .titleElement h1, .pagetitleElement h2, .pagetitleElement h1 {
     align-self: center;
     color: white;
     text-shadow: 2px 2px 5px black, 2px -2px 5px black, -2px 2px 5px black, 0px 0px 15px black;

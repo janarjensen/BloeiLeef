@@ -77,7 +77,7 @@ $("#searchIconStat").click(function(){
 });
 
 // toggle text overpicture
-$(".pageTitleElement").on("click", function(){
+$(".pagetitleElement").on("click", function(){
   $(this).toggleClass("noPageTitle");
 });
 
