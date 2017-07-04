@@ -63,9 +63,9 @@ function swipedetect(el, callback){
             if (Math.abs(distX) >= threshold && Math.abs(distY) <= restraint){ // 2nd condition for horizontal swipe met
                 swipedir = (distX < 0)? 'left' : 'right' // if dist traveled is negative, it indicates left swipe
             }
-            else if (Math.abs(distY) >= threshold && Math.abs(distX) <= restraint){ // 2nd condition for vertical swipe met
-                swipedir = (distY < 0)? 'up' : 'down' // if dist traveled is negative, it indicates up swipe
-            }
+            // else if (Math.abs(distY) >= threshold && Math.abs(distX) <= restraint){ // 2nd condition for vertical swipe met
+            //     swipedir = (distY < 0)? 'up' : 'down' // if dist traveled is negative, it indicates up swipe
+            // }
         }
         handleswipe(swipedir)
         e.preventDefault()
@@ -76,7 +76,7 @@ function swipedetect(el, callback){
 
 var el = document.getElementById('receptSection')
 swipedetect(el, function(swipedir){
-    // swipedir contains either "none", "left", "right", "top", or "down"
+    //  swipedir contains either "none", "left", "right", "top", or "down"
     if (swipedir =='left')
         alert('You just swiped left!')
 })
