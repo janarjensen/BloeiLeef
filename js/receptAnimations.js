@@ -71,9 +71,11 @@ var el = document.getElementById('receptSection')
 swipedetect(el, function(swipedir){
     //  swipedir contains either "none", "left", "right",
     if (swipedir =='left')
-        location.href = $('.previous').attr('href');
+        location.href = (origin + $('.previous').attr('href'));
     if (swipedir =='right')
-        location.href = $('.previous').attr('href');
+        location.href = (origin + $('.next').attr('href'));
 })
 
+// console.log(origin + $('.previous').attr('href'));
 // console.log($('.previous').attr('href'));
+// console.log(origin);
