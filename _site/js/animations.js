@@ -75,3 +75,13 @@ $(".searchIcon").click(function(){
 $("#searchIconStat").click(function(){
   $("#searchNav").toggleClass("height0 heightAuto");
 });
+
+// toggle text overpicture
+$(".pageTitleElement").on("click", function(){
+  $(this).toggleClass("noPageTitle");
+});
+
+// toggle image size
+$("img").on("click", function(){
+  $(this).toggleClass("fullScreen");
+});

@@ -63,7 +63,7 @@ ul {
 .lobster {
   font-family: "Lobster", cursive; }
 
-.titleElement {
+.pagetitleElement {
   background-position: center;
   background-size: cover;
   height: 50vh;
@@ -72,10 +72,14 @@ ul {
   justify-content: center;
   margin: 25px 0px;
   border-radius: 20px; }
-  .titleElement h2, .titleElement h1 {
+  .pagetitleElement h2, .pagetitleElement h1 {
     align-self: center;
     color: white;
-    text-shadow: 2px 2px 5px black, 2px -2px 5px black, -2px 2px 5px black, 0px 0px 15px black; }
+    text-shadow: 2px 2px 5px black, 2px -2px 5px black, -2px 2px 5px black, 0px 0px 15px black;
+    cursor: pointer; }
+
+.noPageTitle h1 {
+  display: none; }
 
 .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12 {
   padding: 0px; }
@@ -575,7 +579,14 @@ footer {
   width: 500px;
   max-width: 90vw;
   margin: 0 auto;
-  border-radius: 20px; }
+  border-radius: 20px;
+  cursor: zoom-in; }
+.generalPageSection .fullScreen {
+  width: 100%;
+  cursor: zoom-out; }
+  @media only screen and (max-width: 600px) {
+    .generalPageSection .fullScreen {
+      width: 200vw; } }
 
 .tipue_search_right {
   display: flex;
@@ -597,51 +608,27 @@ footer {
       outline: 0;
       color: #444444; }
 
-#searchSection {
-  @searchBarLayout; }
-  #searchSection .pageTitleElement {
-    background-position: top;
-    background-size: cover;
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    margin: 25px 0px; }
-  #searchSection .contentTitleInfo {
-    text-shadow: 0px 4px 3px black;
-    margin-top: -65px;
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    padding: 0 20px 0 14px; }
-    #searchSection .contentTitleInfo #backToPrevious {
-      color: #008d90;
-      align-self: baseline; }
-      #searchSection .contentTitleInfo #backToPrevious:hover {
-        color: #8A2BE2; }
-  #searchSection #tipue_search_results_count {
-    text-align: right; }
-  #searchSection .tipue_search_content_title a {
-    font-size: 2em;
-    font-weight: bold;
-    color: #008d90;
-    text-decoration: underline; }
-    #searchSection .tipue_search_content_title a:hover {
-      color: #8A2BE2; }
-  #searchSection .tipue_search_content_url a {
-    font-size: 1.3em;
+#searchSection #tipue_search_results_count {
+  text-align: right; }
+#searchSection .tipue_search_content_title a {
+  font-size: 2em;
+  font-weight: bold;
+  color: #008d90;
+  text-decoration: underline; }
+  #searchSection .tipue_search_content_title a:hover {
     color: #8A2BE2; }
-    #searchSection .tipue_search_content_url a:hover {
-      text-decoration: underline; }
-  #searchSection .tipue_search_content_text {
-    font-size: 1.3em;
-    color: #444444;
-    margin-bottom: 4vmin; }
-  #searchSection .tipue_search_content_bold {
-    font-weight: bold;
-    color: #008d90; }
+#searchSection .tipue_search_content_url a {
+  font-size: 1.3em;
+  color: #8A2BE2; }
+  #searchSection .tipue_search_content_url a:hover {
+    text-decoration: underline; }
+#searchSection .tipue_search_content_text {
+  font-size: 1.3em;
+  color: #444444;
+  margin-bottom: 4vmin; }
+#searchSection .tipue_search_content_bold {
+  font-weight: bold;
+  color: #008d90; }
 
 #contactForm .padding10px {
   padding-top: 0px;
