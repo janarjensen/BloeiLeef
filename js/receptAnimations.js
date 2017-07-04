@@ -24,9 +24,5 @@ $("ul").on("click", "li", function(){
   $(this).toggleClass("completed");
 });
 
-$(document).on("pagecreate","#pageone",function(){
-  alert("you just swiped");
-  // $("p").on("swipe",function(){
-  //   $(this).hide();
-  // });
-});
+// Swipe events creator
+$("#receptSection").on("swipeleft",function(event){alert("swipeTest")})
