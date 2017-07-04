@@ -68,7 +68,7 @@ var el = document.getElementById('receptSection')
 swipedetect(el, function(swipedir){
     //  swipedir contains either "none", "left", "right",
     if (swipedir =='left')
-        alert('You just swiped left!');
+        location.href = $('.previous').attr('href');
     if (swipedir =='right')
-        alert('You just swiped right!');
+        location.href = $('.next').attr('href');
 })
