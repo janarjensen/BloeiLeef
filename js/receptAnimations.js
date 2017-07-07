@@ -71,7 +71,7 @@ var el = document.getElementById('receptSection')
 swipedetect(el, function(swipedir){
     //  swipedir contains either "none", "left", "right",
     if (swipedir =='left')
-        location.href = (origin + $('.previous').attr('href'));
+        location.href = (origin + "/BloeiLeef" + $('.next').attr('href'));
     if (swipedir =='right')
-        location.href = (origin + $('.next').attr('href'));
+        location.href = (origin + "/BloeiLeef" + $('.previous').attr('href'));
 })
