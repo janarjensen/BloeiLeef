@@ -71,7 +71,8 @@ ul {
   flex-direction: column;
   justify-content: center;
   margin: 25px 0px;
-  border-radius: 20px; }
+  border-radius: 20px;
+  z-index: 10; }
   .titleElement h2, .titleElement h1, .pagetitleElement h2, .pagetitleElement h1 {
     align-self: center;
     color: white;
@@ -79,7 +80,9 @@ ul {
     cursor: pointer; }
 
 .noPageTitle h1 {
-  display: none; }
+  display: none;
+  animation-delay: 200ms;
+    animation-delay-display: block; }
 
 .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12 {
   padding: 0px; }
@@ -552,6 +555,23 @@ footer {
   background: #008d90; }
 #receptSection .contentContent input[type=range]:focus::-ms-fill-upper, #weetjeSection .contentContent input[type=range]:focus::-ms-fill-upper, #blogSection .contentContent input[type=range]:focus::-ms-fill-upper {
   background: #444444; }
+#receptSection .nextAndPrevious, #weetjeSection .nextAndPrevious, #blogSection .nextAndPrevious {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+#receptSection .nextAndPreviousTitleNav, #weetjeSection .nextAndPreviousTitleNav, #blogSection .nextAndPreviousTitleNav {
+  margin-top: -50vh;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+  #receptSection .nextAndPreviousTitleNav h1, #weetjeSection .nextAndPreviousTitleNav h1, #blogSection .nextAndPreviousTitleNav h1 {
+    margin-top: -25px;
+    color: white;
+    align-self: baseline; }
+    #receptSection .nextAndPreviousTitleNav h1:hover, #weetjeSection .nextAndPreviousTitleNav h1:hover, #blogSection .nextAndPreviousTitleNav h1:hover {
+      color: #8A2BE2; }
 
 .generalPageSection .titlePicture {
   background-position: center center;

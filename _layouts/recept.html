@@ -2,9 +2,23 @@
 layout: default
 ---
 <section id="receptSection">
+  <div class="nextAndPreviousCode">
+    {% for c in site.recepten %}
+    {% if c.title == page.title %}{% assign thisPost = c %}{% if forloop.index == 1 %}{% assign prevflag = 0 %}{% assign nextflag = 1 %}{% elsif forloop.index == forloop.length %}{% assign prevflag = 1 %}{% assign nextflag = 0 %}{% else %}{% assign prevflag = 1 %}{% assign nextflag = 1 %}{% endif %}{% endif %}{% endfor %}
+    {% for c in site.recepten %}
+    {% if c.title == page.title %}{% assign prevflag = 0 %}{% endif %}{% if prevflag == 1 %}{% assign prevPost = c %}{% assign page.previous = c %}{% endif %}{% endfor %}{% if nextflag == 1 %}{% for c in site.recepten %}{% if foundPost == 1 %}{% assign getNext = 1 %}{% endif %}{% if c.title == page.title %}{% assign foundPost = 1 %}{% endif %}{% if getNext == 1%}{% assign nextPost = c %}{% assign page.next = c %}{% assign foundPost = 0 %}{% assign getNext = 0 %}{% endif %}{% endfor %}{% endif %}
+  </div>
   <div class="container">
-    <div class="pagetitleElement"style="background-image: url({{site.baseurl}}/img/recepten/{{page.imageName}})" class="titleElement">
+    <div style="background-image: url({{site.baseurl}}/img/recepten/{{page.imageName}})" class="pagetitleElement" onclick="">
       <h1>{{page.title}}</h1>
+    </div>
+    <div class="nextAndPreviousTitleNav nextAndPrevious">
+      {% if prevPost.url %}
+        <a class="previous" href="{{ baseurl }}{{ prevPost.url }}"><h1><i class="fa fa-chevron-left" aria-hidden="true"></i></h1></a>
+      {% endif %}
+      {% if nextPost.url %}
+        <a class="next" href="{{ baseurl }}{{ nextPost.url }}"><h1><i class="fa fa-chevron-right" aria-hidden="true"></i></h1></a>
+      {% endif %}
     </div>
     <div class="contentTitleInfo">
       <a id="backToPrevious" href="{{site.baseurl}}/recepten"><i class="fa fa-undo" aria-hidden="true"></i> RECEPTEN</a>
@@ -39,64 +53,15 @@ layout: default
     </div>
     <h5>Reageer hier op dit recept <strong>...{{ page.title }}...</strong></h5>
     {% include forms/webReactie.html %}
-  </div>
-  {% for c in site.recepten %}
-{% if c.title == page.title %}
-  {% assign thisPost = c %}
-  {% if forloop.index == 1 %}
-    {% assign prevflag = 0 %}
-    {% assign nextflag = 1 %}
-  {% elsif forloop.index == forloop.length %}
-    {% assign prevflag = 1 %}
-    {% assign nextflag = 0 %}
-  {% else %}
-    {% assign prevflag = 1 %}
-    {% assign nextflag = 1 %}
-  {% endif %}
-{% endif %}
-{% endfor %}
-
-{% for c in site.recepten %}
-  {% if c.title == page.title %}
-    {% assign prevflag = 0 %}
-  {% endif %}
-  {% if prevflag == 1 %}
-    {% assign prevPost = c %}
-    {% assign page.previous = c %}
-  {% endif %}
-{% endfor %}
-
-{% if nextflag == 1 %}
-  {% for c in site.recepten %}
-    {% if foundPost == 1 %}
-      {% assign getNext = 1 %}
-    {% endif %}
-    {% if c.title == page.title %}
-      {% assign foundPost = 1 %}
-    {% endif %}
-    {% if getNext == 1%}
-      {% assign nextPost = c %}
-      {% assign page.next = c %}
-      {% assign foundPost = 0 %}
-      {% assign getNext = 0 %}
-    {% endif %}
-  {% endfor %}
-{% endif %}
-
-<div id="post-nav">
-  <div >
+    <div class="nextAndPrevious">
       {% if prevPost.url %}
-      <a class="previous" href="{{prevPost.url}}">
-          <span>&lt; {{prevPost.title}}</span>
-      </a>
+        <a class="previous" href="{{ baseurl }}{{ prevPost.url }}"><h6><i class="fa fa-chevron-left" aria-hidden="true"></i> {{prevPost.title}}</h6></a>
       {% endif %}
       {% if nextPost.url %}
-      <a class="next" href="{{nextPost.url}}">
-          <span>{{nextPost.title}} &gt;</span>
-      </a>
+        <a class="next" href="{{ baseurl }}{{ nextPost.url }}"><h6>{{nextPost.title}} <i class="fa fa-chevron-right" aria-hidden="true"></i></h6></a>
       {% endif %}
+    </div>
   </div>
-</div>
 </section>
 
 <!-- Js pullins at bottom of body -->

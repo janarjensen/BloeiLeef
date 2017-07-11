@@ -78,8 +78,11 @@ $("#searchIconStat").click(function(){
 
 // toggle text overpicture
 $(".pagetitleElement").on("click", function(){
-  $(this).toggleClass("noPageTitle");
+  $(this).addClass("noPageTitle").delay(3000).queue(function(){
+  $(this).removeClass("noPageTitle").dequeue();
+  });
 });
+
 
 // toggle image size
 $("img").on("click", function(){
